@@ -1,0 +1,13 @@
+# Godot 4+ specific ignores
+# Godot-generated folders
+.import/
+.export/
+export.cfg
+export_presets.cfg
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
