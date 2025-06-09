@@ -1,0 +1,12 @@
+TileMap
+Panel
+Camera2D
+Button
+AnimationPlayer
+Sprite2D
+CollisionShape2D
+CharacterBody2D
+Label
+VBoxContainer
+Control
+Node2D

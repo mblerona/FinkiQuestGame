@@ -1,0 +1,5 @@
+res://Scenes/StartMenu.tscn
+res://Scenes/Main.tscn
+res://Scenes/student_player.tscn
+res://Scripts/studentPlayer.gd
+res://Scenes/Level1.tscn

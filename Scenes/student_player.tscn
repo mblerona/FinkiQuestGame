@@ -1,0 +1,67 @@
+[gd_scene load_steps=7 format=3 uid="uid://ok47hp3tt4jb"]
+
+[ext_resource type="Texture2D" uid="uid://dk8phd13wwrgw" path="res://Assets/Player/ChatGPT Image Jun 3, 2025, 11_56_39 PM.png" id="1_3vc6x"]
+[ext_resource type="Script" path="res://Scripts/studentPlayer.gd" id="1_n3o0e"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_hfo3p"]
+
+[sub_resource type="Animation" id="Animation_ta8nt"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
+[sub_resource type="Animation" id="Animation_h0hwc"]
+resource_name = "downAnimation"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_dd4eu"]
+_data = {
+"RESET": SubResource("Animation_ta8nt"),
+"downAnimation": SubResource("Animation_h0hwc")
+}
+
+[node name="StudentPlayer" type="CharacterBody2D"]
+position = Vector2(38, 33)
+script = ExtResource("1_n3o0e")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(206.476, 104.363)
+shape = SubResource("CapsuleShape2D_hfo3p")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(204.492, 101.788)
+scale = Vector2(0.0732662, 0.065577)
+texture = ExtResource("1_3vc6x")
+hframes = 3
+vframes = 2
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_dd4eu")
+}
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(202, 103)
+position_smoothing_enabled = true
