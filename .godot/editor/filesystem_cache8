@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1749461997
+::res://::1749554071
 icon.svg::CompressedTexture2D::8959070096615049931::1748976375::1748976381::1::::<><>::
 ::res://Assets/::1748987841
 ::res://Assets/Player/::1748987842
@@ -137,15 +137,15 @@ tile_0128.png::CompressedTexture2D::195254946271732955::1748984391::1748984392::
 tile_0129.png::CompressedTexture2D::7180563177635309229::1748984391::1748984392::1::::<><>::
 tile_0130.png::CompressedTexture2D::512835499094850747::1748984391::1748984392::1::::<><>::
 tile_0131.png::CompressedTexture2D::602089364631429549::1748984391::1748984392::1::::<><>::
-::res://images/::1749466841
+::res://images/::1749466842
 bg2.png::CompressedTexture2D::7794719677545817635::1748981446::1748981447::1::::<><>::
 bg roads.jpg::CompressedTexture2D::1114117336016268029::1749464703::1749464704::1::::<><>::
 finkimapTileMap2.png::CompressedTexture2D::6344521499761518949::1749466841::1749466842::1::::<><>::
 finkimapTileMap.png::CompressedTexture2D::3042602526239603350::1749466841::1749466842::1::::<><>::
-::res://Scenes/::1749466803
-Main.tscn::PackedScene::9222330259576318580::1749464939::0::1::::<><>::uid://p4xl5ks8y7wb::::res://images/bg roads.jpg<>uid://ok47hp3tt4jb::::res://Scenes/student_player.tscn
-Level1.tscn::PackedScene::3912156315204213113::1749466803::0::1::::<><>::
-StartMenu.tscn::PackedScene::4385140510170311014::1749464939::0::1::::<><>::uid://djb25n1imisn8::::res://images/bg2.png
-student_player.tscn::PackedScene::1005105918802115375::1749464939::0::1::::<><>::uid://dk8phd13wwrgw::::res://Assets/Player/ChatGPT Image Jun 3, 2025, 11_56_39 PM.png<>res://Scripts/studentPlayer.gd
+::res://Scenes/::1749473492
+level_1.tscn::PackedScene::9102560540032176000::1749473492::0::1::::<><>::uid://cwnllvsb5ce7f::::res://images/finkimapTileMap2.png
+Main.tscn::PackedScene::9222330259576318580::1749467098::0::1::::<><>::uid://ok47hp3tt4jb::::res://Scenes/student_player.tscn
+StartMenu.tscn::PackedScene::4385140510170311014::1749467100::0::1::::<><>::uid://djb25n1imisn8::::res://images/bg2.png
+student_player.tscn::PackedScene::1005105918802115375::1749467096::0::1::::<><>::uid://dk8phd13wwrgw::::res://Assets/Player/ChatGPT Image Jun 3, 2025, 11_56_39 PM.png<>res://Scripts/studentPlayer.gd
 ::res://Scripts/::1749464274
 studentPlayer.gd::GDScript::-1::1749464274::0::1::::StudentPlayer<>CharacterBody2D<>::
