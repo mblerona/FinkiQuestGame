@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://d4nmoxmm7s2hk"]
 
-[ext_resource type="PackedScene" uid="uid://d2xl3vttu6aiy" path="res://Scenes/level_1.tscn" id="1_vv8kv"]
+[ext_resource type="PackedScene" uid="uid://d2xl3vttu6aiy" path="res://Scenes/level_1.tscn" id="2_dol24"]
 [ext_resource type="PackedScene" uid="uid://ok47hp3tt4jb" path="res://Scenes/student_player.tscn" id="2_rquat"]
 
 [sub_resource type="GDScript" id="GDScript_hg3vs"]
@@ -10,15 +10,18 @@ script/source = "extends Node2D
 	#if has_node(\"StudentPlayer\"):
 		#var player = get_node(\"StudentPlayer\")
 		#print(\"🎮 Player Position:\", player.global_position)
+
+func _ready():
+	print(\"Hello\")
 "
 
 [node name="Main" type="Node2D"]
 position = Vector2(37, 32)
 script = SubResource("GDScript_hg3vs")
 
-[node name="Level1" parent="." instance=ExtResource("1_vv8kv")]
-position = Vector2(-35, -32)
-
 [node name="StudentPlayer" parent="." instance=ExtResource("2_rquat")]
-position = Vector2(-43, 19)
+z_index = 4096
+position = Vector2(38, -0.999998)
 scale = Vector2(0.814634, 1.02026)
+
+[node name="Level1" parent="." instance=ExtResource("2_dol24")]
