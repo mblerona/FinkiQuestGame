@@ -4,13 +4,21 @@
 [ext_resource type="PackedScene" uid="uid://ok47hp3tt4jb" path="res://Scenes/student_player.tscn" id="2_rquat"]
 
 [sub_resource type="GDScript" id="GDScript_hg3vs"]
+script/source = "extends Node2D
+
+#func _process(delta):
+	#if has_node(\"StudentPlayer\"):
+		#var player = get_node(\"StudentPlayer\")
+		#print(\"🎮 Player Position:\", player.global_position)
+"
 
 [node name="Main" type="Node2D"]
 position = Vector2(37, 32)
 script = SubResource("GDScript_hg3vs")
 
 [node name="Level1" parent="." instance=ExtResource("1_vv8kv")]
-position = Vector2(-42, -31)
+position = Vector2(-35, -32)
 
 [node name="StudentPlayer" parent="." instance=ExtResource("2_rquat")]
-position = Vector2(1, 0)
+position = Vector2(-43, 19)
+scale = Vector2(0.814634, 1.02026)

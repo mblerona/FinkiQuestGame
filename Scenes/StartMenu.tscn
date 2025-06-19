@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://b3qgvg2brtv1w"]
+[gd_scene load_steps=6 format=3 uid="uid://b3qgvg2brtv1w"]
 
 [ext_resource type="Texture2D" uid="uid://djb25n1imisn8" path="res://images/bg2.png" id="1_d73pe"]
 
@@ -8,12 +8,20 @@ script/source = "extends Control
 func _on_pressed():
 	get_tree().change_scene_to_file(\"res://Scenes/Main.tscn\")
 
-func _on_ExitButton_pressed():
+
+	
+
+
+func _on_quit_game_pressed() -> void:
 	get_tree().quit()
 "
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ckm8n"]
 texture = ExtResource("1_d73pe")
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_lbek3"]
+
+[sub_resource type="Theme" id="Theme_7cm6p"]
 
 [node name="StartMenu" type="Control"]
 layout_mode = 3
@@ -35,6 +43,19 @@ grow_vertical = 2
 scale = Vector2(0.162934, 0.17353)
 theme_override_styles/panel = SubResource("StyleBoxTexture_ckm8n")
 
+[node name="Label" type="Label" parent="."]
+material = SubResource("CanvasItemMaterial_lbek3")
+layout_mode = 0
+offset_left = 268.0
+offset_top = 83.0
+offset_right = 365.0
+offset_bottom = 106.0
+scale = Vector2(1.22462, 1.34497)
+theme = SubResource("Theme_7cm6p")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+text = "FINKI QUEST"
+
 [node name="Start" type="Button" parent="."]
 layout_mode = 0
 offset_left = 186.0
@@ -43,4 +64,13 @@ offset_right = 280.0
 offset_bottom = 202.0
 text = "Start"
 
+[node name="Quit Game" type="Button" parent="."]
+layout_mode = 0
+offset_left = 187.0
+offset_top = 211.0
+offset_right = 281.0
+offset_bottom = 242.0
+text = "Quit Game"
+
 [connection signal="pressed" from="Start" to="." method="_on_pressed"]
+[connection signal="pressed" from="Quit Game" to="." method="_on_quit_game_pressed"]

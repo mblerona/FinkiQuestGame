@@ -1,0 +1,22 @@
+[
+  {
+	"question": "Which of the following is NOT a principle of OOP?",
+	"options": ["Encapsulation", "Inheritance", "Compilation", "Polymorphism"],
+	"answer": 2
+  },
+  {
+	"question": "What is encapsulation?",
+	"options": [
+	  "Hiding internal data from outside access",
+	  "Breaking code into functions",
+	  "Running multiple tasks simultaneously",
+	  "Linking multiple classes together"
+	],
+	"answer": 0
+  },
+  {
+	"question": "What keyword is used in many languages to create a class?",
+	"options": ["object", "method", "class", "new"],
+	"answer": 2
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+	"question": "Which tag is used to create a hyperlink in HTML?",
+	"options": ["<link>", "<a>", "<href>", "<url>"],
+	"answer": 1
+  },
+  {
+	"question": "What does CSS stand for?",
+	"options": ["Creative Style Sheets", "Cascading Style Sheets", "Computer Style Sheets", "Colorful Style Sheets"],
+	"answer": 1
+  },
+  {
+	"question": "Which HTML element is used to define a paragraph?",
+	"options": ["<div>", "<head>", "<p>", "<section>"],
+	"answer": 2
+  }
+]

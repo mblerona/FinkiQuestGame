@@ -1,2 +1,10 @@
+res://Scenes/Professor.tscn
+res://Scripts/level_1.gd
+res://Scripts/professor.gd
 res://Scenes/level_1.tscn
 res://Scenes/Main.tscn
+res://Scenes/Quiz.tscn
+res://Dialogue/dialogue.tscn
+res://Scenes/LevelBanner.tscn
+res://Scenes/StartMenu.tscn
+res://Scripts/dialogue.gd
