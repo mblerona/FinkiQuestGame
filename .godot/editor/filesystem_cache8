@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1750026546
+::res://::1750372646
 icon.svg::CompressedTexture2D::8959070096615049931::1749559813::1749559871::1::::<><>::
 ::res://Assets/::1749559813
 ::res://Assets/Player/::1749559873
@@ -137,7 +137,7 @@ tile_0128.png::CompressedTexture2D::195254946271732955::1749559820::1749559871::
 tile_0129.png::CompressedTexture2D::7180563177635309229::1749559820::1749559871::1::::<><>::
 tile_0130.png::CompressedTexture2D::512835499094850747::1749559820::1749559871::1::::<><>::
 tile_0131.png::CompressedTexture2D::602089364631429549::1749559820::1749559871::1::::<><>::
-::res://images/::1750028440
+::res://images/::1750028441
 bg2.png::CompressedTexture2D::7794719677545817635::1749559820::1749559872::1::::<><>::
 bg roads.jpg::CompressedTexture2D::1114117336016268029::1749559820::1749559872::1::::<><>::
 exterior.png::CompressedTexture2D::6140316683599272200::1749559987::1749559988::1::::<><>::
@@ -150,10 +150,10 @@ tetex.png::CompressedTexture2D::3204120198557719254::1750027310::1750027311::1::
 university_building_600px.png::CompressedTexture2D::8699788476007219227::1749733815::1749733816::1::::<><>::
 university_building_red_nobg_final.png::CompressedTexture2D::3119069895044989340::1749748002::1749748002::1::::<><>::
 walls_floor.png::CompressedTexture2D::9005754615193497426::1749752638::1749752638::1::::<><>::
-::res://Scenes/::1750028335
-level_1.tscn::PackedScene::9102560540032176000::1750028335::0::1::::<><>::uid://cwnllvsb5ce7f::::res://images/finkimapTileMap2.png<>uid://ctqoebgdq7wy7::::res://images/exterior.png<>uid://coh8xo57eps4o::::res://images/pixel_cars_78x192_each.png<>uid://dv7iilnf4sej0::::res://images/university_building_600px.png<>uid://bko5vjbprnncm::::res://images/university_building_red_nobg_final.png<>uid://d1kppy7egt3oo::::res://images/walls_floor.png<>uid://blwdnkvgie0j7::::res://images/tetex.png<>uid://yrxmtqd5ca6l::::res://images/la no.png
-Main.tscn::PackedScene::9222330259576318580::1750020889::0::1::::<><>::uid://d2xl3vttu6aiy::::res://Scenes/level_1.tscn<>uid://ok47hp3tt4jb::::res://Scenes/student_player.tscn
+::res://Scenes/::1750103426
+level_1.tscn::PackedScene::9102560540032176000::1750103426::0::1::::<><>::uid://cwnllvsb5ce7f::::res://images/finkimapTileMap2.png<>uid://ctqoebgdq7wy7::::res://images/exterior.png<>uid://coh8xo57eps4o::::res://images/pixel_cars_78x192_each.png<>uid://dv7iilnf4sej0::::res://images/university_building_600px.png<>uid://bko5vjbprnncm::::res://images/university_building_red_nobg_final.png<>uid://d1kppy7egt3oo::::res://images/walls_floor.png<>uid://blwdnkvgie0j7::::res://images/tetex.png<>uid://yrxmtqd5ca6l::::res://images/la no.png<>uid://dpv1a1ivmatls::::res://images/net village.png
+Main.tscn::PackedScene::9222330259576318580::1750029954::0::1::::<><>::uid://d2xl3vttu6aiy::::res://Scenes/level_1.tscn<>uid://ok47hp3tt4jb::::res://Scenes/student_player.tscn
 StartMenu.tscn::PackedScene::4385140510170311014::1749559813::0::1::::<><>::uid://djb25n1imisn8::::res://images/bg2.png
-student_player.tscn::PackedScene::1005105918802115375::1750009218::0::1::::<><>::uid://dk8phd13wwrgw::::res://Assets/Player/ChatGPT Image Jun 3, 2025, 11_56_39 PM.png<>res://Scripts/studentPlayer.gd
+student_player.tscn::PackedScene::1005105918802115375::1750029964::0::1::::<><>::uid://dk8phd13wwrgw::::res://Assets/Player/ChatGPT Image Jun 3, 2025, 11_56_39 PM.png<>res://Scripts/studentPlayer.gd
 ::res://Scripts/::1749559813
 studentPlayer.gd::GDScript::-1::1749559813::0::1::::StudentPlayer<>CharacterBody2D<>::
