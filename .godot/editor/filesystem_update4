@@ -1,2 +1,4 @@
-res://Scenes/level_1.tscn
 res://Scenes/Main.tscn
+res://Scenes/level_1_branch.tscn
+res://Scenes/level_1.tscn
+res://Scenes/student_player.tscn

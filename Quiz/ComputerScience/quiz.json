@@ -1,0 +1,17 @@
+[
+  {
+	"question": "What does CPU stand for?",
+	"options": ["Central Process Unit", "Central Processing Unit", "Computer Personal Unit", "Control Panel Unit"],
+	"answer": 1
+  },
+  {
+	"question": "Binary number 1010 equals to:",
+	"options": ["10", "12", "8", "5"],
+	"answer": 0
+  },
+  {
+	"question": "What is an algorithm?",
+	"options": ["A math equation", "A hardware component", "A step-by-step procedure", "A programming language"],
+	"answer": 2
+  }
+]

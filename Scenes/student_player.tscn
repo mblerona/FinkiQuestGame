@@ -1,11 +1,11 @@
-[gd_scene load_steps=7 format=3 uid="uid://ok47hp3tt4jb"]
+[gd_scene load_steps=9 format=3 uid="uid://ok47hp3tt4jb"]
 
-[ext_resource type="Texture2D" uid="uid://dk8phd13wwrgw" path="res://Assets/Player/ChatGPT Image Jun 3, 2025, 11_56_39 PM.png" id="1_3vc6x"]
 [ext_resource type="Script" path="res://Scripts/studentPlayer.gd" id="1_n3o0e"]
+[ext_resource type="Texture2D" uid="uid://bijndqctivfdi" path="res://Assets/Player/Character_Walk.png" id="2_aovl0"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_hfo3p"]
 
-[sub_resource type="Animation" id="Animation_ta8nt"]
+[sub_resource type="Animation" id="Animation_vvsrx"]
 length = 0.001
 tracks/0/type = "value"
 tracks/0/imported = false
@@ -17,11 +17,13 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [0]
+"values": [12]
 }
 
-[sub_resource type="Animation" id="Animation_h0hwc"]
-resource_name = "downAnimation"
+[sub_resource type="Animation" id="Animation_ta8nt"]
+resource_name = "idle_down"
+loop_mode = 1
+step = 1.0
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -29,16 +31,52 @@ tracks/0/path = NodePath("Sprite2D:frame")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
+"times": PackedFloat32Array(0, 0.241145, 0.478578, 0.713847),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
 "update": 1,
-"values": [0]
+"values": [12, 13, 12, 15]
+}
+
+[sub_resource type="Animation" id="Animation_mktet"]
+resource_name = "idle_side"
+loop_mode = 1
+step = 1.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.271648, 0.522615, 0.790103),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 0, 3]
+}
+
+[sub_resource type="Animation" id="Animation_wm1y2"]
+resource_name = "idle_up"
+loop_mode = 1
+step = 1.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.235272, 0.482027, 0.739309),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [8, 9, 10, 11]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_dd4eu"]
 _data = {
-"RESET": SubResource("Animation_ta8nt"),
-"downAnimation": SubResource("Animation_h0hwc")
+"RESET": SubResource("Animation_vvsrx"),
+"idle_down": SubResource("Animation_ta8nt"),
+"idle_side": SubResource("Animation_mktet"),
+"idle_up": SubResource("Animation_wm1y2")
 }
 
 [node name="StudentPlayer" type="CharacterBody2D"]
@@ -46,16 +84,17 @@ position = Vector2(38, 33)
 script = ExtResource("1_n3o0e")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(206.476, 104.363)
+position = Vector2(206, 103)
 shape = SubResource("CapsuleShape2D_hfo3p")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture_filter = 1
-position = Vector2(204.492, 101.788)
-scale = Vector2(0.0732662, 0.065577)
-texture = ExtResource("1_3vc6x")
-hframes = 3
-vframes = 2
+position = Vector2(206, 105)
+scale = Vector2(1.24685, 0.913941)
+texture = ExtResource("2_aovl0")
+hframes = 4
+vframes = 4
+frame = 12
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
@@ -64,4 +103,6 @@ libraries = {
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(202, 103)
+scale = Vector2(-0.345598, 1)
+zoom = Vector2(0.8, 0.8)
 position_smoothing_enabled = true

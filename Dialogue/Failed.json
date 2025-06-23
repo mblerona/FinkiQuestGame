@@ -1,0 +1,14 @@
+[
+  {
+	"name": "Professor",
+	"text": "You failed the exam. You’ll have to try again!"
+  },
+  {
+	"name": "Professor",
+	"text": "Be careful — you only have 4 retries total."
+  },
+  {
+	"name": "Professor",
+	"text": "Retry again"
+  }
+]

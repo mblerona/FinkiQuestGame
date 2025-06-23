@@ -1,0 +1,17 @@
+[
+  {
+	"question": "Which is NOT a structured programming concept?",
+	"options": ["Sequence", "Recursion", "Selection", "Iteration"],
+	"answer": 1
+  },
+  {
+	"question": "What is used to repeat a block of code in C?",
+	"options": ["if", "loop", "while", "goto"],
+	"answer": 2
+  },
+  {
+	"question": "Which keyword is used for decision making?",
+	"options": ["switch", "select", "decision", "repeat"],
+	"answer": 0
+  }
+]
