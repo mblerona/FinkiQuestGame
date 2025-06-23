@@ -1,0 +1,17 @@
+[
+  {
+	"question": "What is the time complexity of binary search in a sorted array?",
+	"options": ["A) O(n)", "B) O(log n)", "C) O(n log n)", "D) O(1)"],
+	"answer": 1
+  },
+  {
+	"question": "Which data structure uses FIFO (First-In-First-Out)?",
+	"options": ["A) Stack", "B) Queue", "C) Heap", "D) Tree"],
+	"answer": 1
+  },
+  {
+	"question": "What is the best case time complexity of quicksort?",
+	"options": ["A) O(n^2)", "B) O(n log n)", "C) O(log n)", "D) O(n)"],
+	"answer": 1
+  }
+]

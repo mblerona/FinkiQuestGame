@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://bxf8v1n2h5i62"]
 
 [ext_resource type="Script" path="res://Scripts/dialogue.gd" id="1_b7yjo"]
-[ext_resource type="Texture2D" uid="uid://dwaan8nj0xgv7" path="res://images/dialogue.png" id="1_lj0df"]
+[ext_resource type="Texture2D" uid="uid://d3dssknre1y6w" path="res://Dialogue/dialogueBanner.png" id="2_0wen6"]
 
 [node name="Dialogue" type="Control"]
 layout_mode = 3
@@ -10,7 +10,7 @@ offset_left = -59.0
 offset_top = -48.0
 offset_right = -33.0
 offset_bottom = -8.0
-scale = Vector2(4.51848, 1.18099)
+scale = Vector2(5.27848, 1.62099)
 script = ExtResource("1_b7yjo")
 
 [node name="NinePatchRect" type="NinePatchRect" parent="."]
@@ -18,39 +18,43 @@ layout_mode = 1
 anchors_preset = -1
 anchor_top = 0.005
 anchor_bottom = 0.005
-offset_top = -1.89349
-offset_right = 87.0
-offset_bottom = 117.107
+offset_top = -0.2
+offset_right = 99.0
+offset_bottom = 133.8
 scale = Vector2(0.321254, 0.367661)
-texture = ExtResource("1_lj0df")
-region_rect = Rect2(295.5, 130.75, 412.5, 277.5)
-patch_margin_left = 5
+texture = ExtResource("2_0wen6")
+region_rect = Rect2(203.082, 161.78, 1121.28, 537.813)
+patch_margin_left = 4
 patch_margin_top = 5
 patch_margin_right = 5
 patch_margin_bottom = 5
 
 [node name="Name" type="RichTextLabel" parent="NinePatchRect"]
-modulate = Color(0, 0, 0, 1)
 layout_mode = 0
-offset_left = 3.0
-offset_top = 5.0
-offset_right = 244.0
-offset_bottom = 30.0
-scale = Vector2(0.335317, 1.04654)
+offset_left = 4.12801
+offset_top = 8.38961
+offset_right = 245.128
+offset_bottom = 33.3896
+scale = Vector2(0.335317, 1.11366)
+theme_override_colors/table_border = Color(0.257881, 0.570429, 0.209201, 1)
+theme_override_colors/default_color = Color(1, 1, 1, 1)
 theme_override_colors/font_selected_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/bold_italics_font_size = 16
+text = "Hello"
 fit_content = true
 scroll_active = false
 
 [node name="Text" type="RichTextLabel" parent="NinePatchRect"]
-modulate = Color(0, 0, 0, 1)
 layout_mode = 0
-offset_left = 0.729086
-offset_top = 48.1986
-offset_right = 248.729
-offset_bottom = 104.199
-scale = Vector2(0.343372, 1.17935)
+offset_left = 2.35886
+offset_top = 36.9143
+offset_right = 287.359
+offset_bottom = 113.914
+scale = Vector2(0.333169, 1.04538)
 theme_override_colors/font_selected_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/bold_italics_font_size = 16
+theme_override_font_sizes/bold_italics_font_size = 15
+theme_override_font_sizes/normal_font_size = 20
+text = "I am here "
 fit_content = true
 scroll_active = false
+tab_size = 5

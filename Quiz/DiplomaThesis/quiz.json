@@ -1,0 +1,52 @@
+[
+  {
+	"question": "What’s the most efficient debugging technique at 3AM?",
+	"options": [
+	  "A) Reading stack traces carefully",
+	  "B) Hopeless debugging",
+	  "C) Crying and hoping",
+	  "D) Randomly commenting out code until it works"
+	],
+	"answer": 3
+  },
+  {
+	"question": "Your thesis deadline is in 2 days. What’s your first move?",
+	"options": [
+	  "A) Open Word and start calmly",
+	  "B) AAAAAAAAAA",
+	  "C) ChatGPT",
+	  "D) Rename last year’s project and pray"
+	],
+	"answer": 3
+  },
+  {
+	"question": "Why did the FINKI student push to Git?",
+	"options": [
+	  "A) To save their progress",
+	  "B) For version control",
+	  "C) To look productive on GitHub",
+	  "D) Because their laptop was making weird sounds"
+	],
+	"answer": 3
+  },
+  {
+	"question": "What’s the real purpose of the README file?",
+	"options": [
+	  "A) Explain the project",
+	  "B) Document the code",
+	  "C) Put your name and hope for the best",
+	  "D) Idk ChatGpt wrote it"
+	],
+	"answer": 4
+  },
+  {
+	"question": "What do you say during the thesis defense when nothing works?",
+	"options": [
+	  "A) 'It worked on my machine'",
+	  "B) 'That’s a known bug we’re working on'",
+	  "C) 'Let me just restart real quick'",
+	  "D) All of the above, with confidence"
+	],
+	"answer": 4
+  }
+]

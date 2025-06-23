@@ -1,8 +1,16 @@
-[gd_scene load_steps=2 format=3 uid="uid://bdpg7ocxl7f1e"]
+[gd_scene load_steps=3 format=3 uid="uid://bdpg7ocxl7f1e"]
 
 [ext_resource type="Script" path="res://Scripts/level_banner.gd" id="1_sfcku"]
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_fcp2h"]
+bg_color = Color(0.309804, 0.54902, 0.74902, 0.568627)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
 [node name="CanvasLayer" type="CanvasLayer"]
+layer = 10
 script = ExtResource("1_sfcku")
 
 [node name="Timer" type="Timer" parent="."]
@@ -30,6 +38,7 @@ offset_bottom = 44.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
+theme_override_styles/normal = SubResource("StyleBoxFlat_fcp2h")
 horizontal_alignment = 1
 vertical_alignment = 1
 autowrap_mode = 2

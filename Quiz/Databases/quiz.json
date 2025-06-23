@@ -1,0 +1,22 @@
+[
+  {
+	"question": "Which language is used to manipulate data in a relational database?",
+	"options": ["A) HTML", "B) DML", "C) DDL", "D) CSS"],
+	"answer": 1
+  },
+  {
+	"question": "Which key uniquely identifies each record in a table?",
+	"options": ["A) Foreign key", "B) Candidate key", "C) Primary key", "D) Alternate key"],
+	"answer": 2
+  },
+  {
+	"question": "Which normal form eliminates partial dependencies?",
+	"options": ["A) 1NF", "B) 2NF", "C) 3NF", "D) BCNF"],
+	"answer": 1
+  },
+  {
+	  "question": "Which SQL clause is used to filter results based on a condition?",
+	  "options": ["A) ORDER BY", "B) GROUP BY", "C) WHERE", "D) SELECT"],
+	  "answer": 2
+  }
+]

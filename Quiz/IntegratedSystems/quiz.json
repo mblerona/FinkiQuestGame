@@ -1,0 +1,27 @@
+[
+  {
+	"question": "Which of the following is a key characteristic of integrated systems?",
+	"options": ["A) Manual control", "B) Standalone execution", "C) Modular interaction", "D) Real-time response"],
+	"answer": 3
+  },
+  {
+	"question": "What does SCADA stand for?",
+	"options": ["A) Secure Control And Data Access", "B) Supervisory Control And Data Acquisition", "C) Scalable Control And Data Application", "D) Systematic Control And Data Adapter"],
+	"answer": 1
+  },
+  {
+	"question": "Which component typically interfaces sensors and actuators in an integrated system?",
+	"options": ["A) Database", "B) Web server", "C) Microcontroller", "D) Spreadsheet"],
+	"answer": 2
+  },
+  {
+	"question": "Which communication protocol is widely used in industrial automation?",
+	"options": ["A) HTTP", "B) Modbus", "C) SMTP", "D) FTP"],
+	"answer": 1
+  },
+  {
+	"question": "What is a PLC primarily used for?",
+	"options": ["A) Hosting web apps", "B) Controlling manufacturing processes", "C) Data visualization", "D) Software debugging"],
+	"answer": 1
+  }
+]

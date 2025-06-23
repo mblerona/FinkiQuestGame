@@ -1,0 +1,23 @@
+[
+  {
+	"question": "What is the purpose of unit testing?",
+	"options": ["A) Test the whole system", "B) Test individual components", "C) Test usability", "D) Test UI"],
+	"answer": 1
+  },
+  {
+	"question": "Which type of testing is done without knowing internal code?",
+	"options": ["A) White-box", "B) Glass-box", "C) Black-box", "D) Unit"],
+	"answer": 2
+  },
+  {
+	"question": "What is a test case?",
+	"options": ["A) An error", "B) A piece of code", "C) Set of inputs and expected results", "D) A documentation file"],
+	"answer": 2
+  },
+  {
+  "question": "Which type of testing is performed by the end-user in a real environment?",
+  "options": ["A) Unit testing", "B) Integration testing", "C) Alpha testing", "D) User Acceptance Testing (UAT)"],
+  "answer": 3
+  }
+
+]

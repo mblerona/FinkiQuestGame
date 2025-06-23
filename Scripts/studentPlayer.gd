@@ -1,7 +1,7 @@
 class_name StudentPlayer
 extends CharacterBody2D
 
-var moveSpeed: float = 100.0
+var moveSpeed: float = 120.0
 var cardinal_direction: Vector2 = Vector2.DOWN
 var direction: Vector2 = Vector2.ZERO
 @onready var animation_player: AnimationPlayer = $AnimationPlayer

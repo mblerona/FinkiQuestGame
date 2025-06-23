@@ -1,0 +1,27 @@
+[
+  {
+	"question": "What feature allows a function to call itself in programming?",
+	"options": ["A) Looping", "B) Recursion", "C) Inheritance", "D) Overloading"],
+	"answer": 1
+  },
+  {
+	"question": "Which principle allows multiple functions with the same name but different parameters?",
+	"options": ["A) Polymorphism", "B) Encapsulation", "C) Overloading", "D) Abstraction"],
+	"answer": 2
+  },
+  {
+	"question": "Which type of language feature is used to catch and handle errors?",
+	"options": ["A) Garbage collection", "B) Debugging", "C) Exception handling", "D) Syntax highlighting"],
+	"answer": 2
+  },
+  {
+	"question": "Which keyword is used in Java to create an abstract class?",
+	"options": ["A) abstract", "B) virtual", "C) interface", "D) extends"],
+	"answer": 0
+  },
+  {
+	"question": "What is method overriding in object-oriented programming?",
+	"options": ["A) Changing method name", "B) Creating a new method", "C) Defining a method in subclass with same signature", "D) Using private methods"],
+	"answer": 2
+  }  
+]

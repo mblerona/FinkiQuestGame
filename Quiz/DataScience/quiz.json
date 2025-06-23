@@ -1,0 +1,22 @@
+[
+  {
+	"question": "What is the purpose of data normalization?",
+	"options": ["A) To make data larger", "B) To make data noisy", "C) To scale features", "D) To remove labels"],
+	"answer": 2
+  },
+  {
+	"question": "Which library is commonly used in Python for data analysis?",
+	"options": ["A) NumPy", "B) TensorFlow", "C) Pandas", "D) Flask"],
+	"answer": 2
+  },
+  {
+	"question": "What does a confusion matrix evaluate?",
+	"options": ["A) Model size", "B) Training speed", "C) Classification accuracy", "D) Storage cost"],
+	"answer": 2
+  },
+  {
+  "question": "What is overfitting in a machine learning model?",
+  "options": ["A) Model is too simple", "B) Model performs well on new data", "C) Model memorizes training data", "D) Model cannot be trained"],
+  "answer": 2
+  }
+]

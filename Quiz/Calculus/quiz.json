@@ -1,17 +1,17 @@
 [
   {
 	"question": "What is the derivative of sin(x)?",
-	"options": ["cos(x)", "-cos(x)", "sin(x)", "-sin(x)"],
+	"options": ["A) cos(x)", "B) -cos(x)", "C) sin(x)", "D) -sin(x)"],
 	"answer": 0
   },
   {
 	"question": "The integral of 1/x is?",
-	"options": ["ln|x| + C", "x + C", "1/(x^2) + C", "x^2 + C"],
+	"options": ["A) ln|x| + C", "B) x + C", "C) 1/(x^2) + C", "D) x^2 + C"],
 	"answer": 0
   },
   {
 	"question": "What is the limit of (1 + 1/n)^n as n → ∞?",
-	"options": ["1", "0", "e", "∞"],
+	"options": ["A) 1", "B) 0", "C) e", "D) ∞"],
 	"answer": 2
   }
 ]

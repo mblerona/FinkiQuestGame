@@ -1,0 +1,17 @@
+[
+  {
+	"question": "Which scheduling algorithm gives the shortest job priority?",
+	"options": ["A) Round Robin", "B) FCFS", "C) SJF", "D) Multilevel Queue"],
+	"answer": 2
+  },
+  {
+	"question": "What is a deadlock?",
+	"options": ["A) A memory error", "B) An I/O failure", "C) When processes block each other", "D) An OS crash"],
+	"answer": 2
+  },
+  {
+	"question": "What is virtual memory?",
+	"options": ["A) A secondary storage", "B) An illusion of more RAM", "C) RAM replacement", "D) Cache memory"],
+	"answer": 1
+  }
+]

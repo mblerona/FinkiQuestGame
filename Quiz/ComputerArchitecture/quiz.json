@@ -1,0 +1,23 @@
+[
+  {
+	"question": "What does ALU stand for?",
+	"options": ["A) Arithmetic Logic Unit", "B) Automatic Load Unit", "C) Advanced Logic Unit", "D) Application Logic Unit"],
+	"answer": 0
+  },
+  {
+	"question": "Which memory is the fastest?",
+	"options": ["A) RAM", "B) ROM", "C) Cache", "D) Hard Disk"],
+	"answer": 2
+  },
+  {
+	"question": "What is the function of the control unit?",
+	"options": ["A) Arithmetic operations", "B) Memory storage", "C) Manage CPU operations", "D) Input device control"],
+	"answer": 2
+  },
+  {
+  "question": "Which bus is responsible for transferring data between CPU and memory?",
+  "options": ["A) Address bus", "B) Control bus", "C) Data bus", "D) Instruction bus"],
+  "answer": 2
+  }
+
+]

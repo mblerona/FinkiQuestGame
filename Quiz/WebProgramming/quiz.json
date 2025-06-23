@@ -1,0 +1,27 @@
+[
+  {
+	"question": "What does MVC stand for in web development?",
+	"options": ["A) Model-View-Controller", "B) Main-View-Content", "C) Module-Variable-Class", "D) Managed-Visual-Code"],
+	"answer": 0
+  },
+  {
+	"question": "Which annotation in Spring Boot marks a method to handle GET requests?",
+	"options": ["A) @PostMapping", "B) @PutMapping", "C) @GetMapping", "D) @RequestBody"],
+	"answer": 2
+  },
+  {
+	"question": "What is the purpose of the 'Service' layer in Spring MVC?",
+	"options": ["A) Handle HTTP responses", "B) Manage business logic", "C) Define routes", "D) Persist data to the browser"],
+	"answer": 1
+  },
+  {
+	"question": "Which annotation is used in Spring Boot to inject dependencies?",
+	"options": ["A) @Autowired", "B) @Inject", "C) @Service", "D) @Component"],
+	"answer": 0
+  },
+  {
+	"question": "What does the Model object in Spring MVC do?",
+	"options": ["A) Handles HTTP requests", "B) Stores data for the view", "C) Defines controllers", "D) Formats JSON output"],
+	"answer": 1
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+	"question": "What is the probability of getting heads in a fair coin toss?",
+	"options": ["A) 0.25", "B) 0.5", "C) 1", "D) 0"],
+	"answer": 1
+  },
+  {
+	"question": "In normal distribution,percentage of data that falls within one standard deviation of the mean:",
+	"options": ["A) 68%", "B) 95%", "C) 99%", "D) 50%"],
+	"answer": 0
+  },
+  {
+	"question": "What is the expected value of rolling a fair six-sided die?",
+	"options": ["A) 3", "B) 3.5", "C) 4", "D) 2.5"],
+	"answer": 1
+  }
+]

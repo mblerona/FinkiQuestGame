@@ -1,0 +1,17 @@
+[
+  {
+	"question": "What is the cardinality of the power set of a set with 4 elements?",
+	"options": ["A) 4", "B) 8", "C) 16", "D) 12"],
+	"answer": 2
+  },
+  {
+	"question": "Which of the following is a tautology?",
+	"options": ["A) p ∧ ¬p", "B) p ∨ ¬p", "C) ¬(p ∨ p)", "D) p ∧ p"],
+	"answer": 1
+  },
+  {
+	"question": "What is the logical AND of true and false?",
+	"options": ["A) true", "B) false", "C) undefined", "D) error"],
+	"answer": 1
+  }
+]

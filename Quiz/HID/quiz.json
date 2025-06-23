@@ -1,0 +1,23 @@
+[
+  {
+	"question": "What is the main goal of usability in interface design?",
+	"options": ["A) Beauty", "B) Performance", "C) Ease of use", "D) Security"],
+	"answer": 2
+  },
+  {
+	"question": "Which principle involves making controls visible to the user?",
+	"options": ["A) Consistency", "B) Affordance", "C) Feedback", "D) Visibility"],
+	"answer": 3
+  },
+  {
+	"question": "What does a heuristic evaluation identify?",
+	"options": ["A) Security flaws", "B) Color palettes", "C) Usability issues", "D) Database errors"],
+	"answer": 2
+  },
+  {
+  "question": "Which method gathers feedback by observing users as they interact with the system?",
+  "options": ["A) Surveys", "B) Interviews", "C) Usability testing", "D) Personas"],
+  "answer": 2
+  }
+
+]

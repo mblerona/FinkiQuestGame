@@ -1,0 +1,27 @@
+[
+  {
+	"question": "Which document outlines project goals, scope, and timeline?",
+	"options": ["A) Business card", "B) Gantt chart", "C) Project charter", "D) User manual"],
+	"answer": 2
+  },
+  {
+	"question": "What is the role of a stakeholder in an ICT project?",
+	"options": ["A) Write code", "B) Test only", "C) Consume output", "D) Influence or are affected by the project"],
+	"answer": 3
+  },
+  {
+	"question": "Which methodology breaks a project into small, iterative cycles?",
+	"options": ["A) Waterfall", "B) Agile", "C) V-Model", "D) Spiral"],
+	"answer": 1
+  },
+  {
+	"question": "Which of these is a risk mitigation strategy in project planning?",
+	"options": ["A) Ignoring issues", "B) Budgeting errors", "C) Creating a contingency plan", "D) Skipping testing"],
+	"answer": 2
+  },
+  {
+	"question": "What does a Gantt chart show?",
+	"options": ["A) Code complexity", "B) Database schema", "C) Project tasks and timelines", "D) Programming logic"],
+	"answer": 2
+  }	
+]

@@ -1,6 +1,6 @@
-[gd_scene load_steps=6 format=3 uid="uid://b3qgvg2brtv1w"]
+[gd_scene load_steps=12 format=3 uid="uid://b3qgvg2brtv1w"]
 
-[ext_resource type="Texture2D" uid="uid://djb25n1imisn8" path="res://images/bg2.png" id="1_d73pe"]
+[ext_resource type="Texture2D" uid="uid://b2swqyry2f4np" path="res://images/startMenuMaybe.png" id="1_gpecp"]
 
 [sub_resource type="GDScript" id="GDScript_k36g8"]
 script/source = "extends Control
@@ -17,11 +17,59 @@ func _on_quit_game_pressed() -> void:
 "
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ckm8n"]
-texture = ExtResource("1_d73pe")
+texture = ExtResource("1_gpecp")
 
 [sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_lbek3"]
 
 [sub_resource type="Theme" id="Theme_7cm6p"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_g3gqs"]
+bg_color = Color(0.0313726, 0.494118, 0.768627, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_67qkw"]
+bg_color = Color(0.0313726, 0.494118, 0.768627, 0.568627)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qffu4"]
+bg_color = Color(1, 1, 1, 0.890196)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0, 0.423529, 0.678431, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_s6syq"]
+bg_color = Color(0.027451, 0.494118, 0.768627, 0.568627)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8hm2m"]
+bg_color = Color(0.0313726, 0.494118, 0.768627, 0.568627)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jv14w"]
+bg_color = Color(1, 1, 1, 0.831373)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0, 0.423529, 0.682353, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
 
 [node name="StartMenu" type="Control"]
 layout_mode = 3
@@ -36,14 +84,17 @@ layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_right = 39.0
-offset_bottom = -124.0
+offset_left = 1.0
+offset_top = 1.0
+offset_right = 22.0
+offset_bottom = -140.0
 grow_horizontal = 2
 grow_vertical = 2
 scale = Vector2(0.162934, 0.17353)
 theme_override_styles/panel = SubResource("StyleBoxTexture_ckm8n")
 
 [node name="Label" type="Label" parent="."]
+visible = false
 material = SubResource("CanvasItemMaterial_lbek3")
 layout_mode = 0
 offset_left = 268.0
@@ -62,6 +113,10 @@ offset_left = 186.0
 offset_top = 175.0
 offset_right = 280.0
 offset_bottom = 202.0
+theme_override_colors/font_color = Color(0, 0.423529, 0.678431, 1)
+theme_override_styles/hover = SubResource("StyleBoxFlat_g3gqs")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_67qkw")
+theme_override_styles/normal = SubResource("StyleBoxFlat_qffu4")
 text = "Start"
 
 [node name="Quit Game" type="Button" parent="."]
@@ -70,6 +125,10 @@ offset_left = 187.0
 offset_top = 211.0
 offset_right = 281.0
 offset_bottom = 242.0
+theme_override_colors/font_color = Color(0, 0.423529, 0.678431, 1)
+theme_override_styles/hover = SubResource("StyleBoxFlat_s6syq")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_8hm2m")
+theme_override_styles/normal = SubResource("StyleBoxFlat_jv14w")
 text = "Quit Game"
 
 [connection signal="pressed" from="Start" to="." method="_on_pressed"]

@@ -1,0 +1,89 @@
+[gd_scene load_steps=7 format=3 uid="uid://burv6aiu048wx"]
+
+[ext_resource type="Script" path="res://Scripts/graduate_menu.gd" id="1_l48nr"]
+[ext_resource type="Texture2D" uid="uid://cgi186fjra4kg" path="res://images/graduatePic.png" id="2_w1qum"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_371jo"]
+bg_color = Color(0.909804, 0.784314, 0.584314, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_l8ef4"]
+texture = ExtResource("2_w1qum")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_nhvp2"]
+bg_color = Color(0.963817, 0.977246, 0.99709, 0.819608)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_e4lwh"]
+bg_color = Color(1, 1, 1, 0.847059)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.192157, 0.435294, 0.607843, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[node name="GraduateMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_l48nr")
+
+[node name="Panel2" type="Panel" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+scale = Vector2(12.04, 6.72)
+theme_override_styles/panel = SubResource("StyleBoxFlat_371jo")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 87.0
+offset_top = 69.0
+offset_right = 1867.0
+offset_bottom = 1215.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.162934, 0.17353)
+theme_override_styles/panel = SubResource("StyleBoxTexture_l8ef4")
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 383.0
+offset_top = 235.0
+offset_right = 483.0
+offset_bottom = 264.0
+scale = Vector2(0.840004, 0.800006)
+theme_override_colors/font_hover_color = Color(0.176471, 0.427451, 0.603922, 0.823529)
+theme_override_colors/font_color = Color(0.196078, 0.454902, 0.635294, 1)
+theme_override_font_sizes/font_size = 10
+theme_override_styles/hover = SubResource("StyleBoxFlat_nhvp2")
+theme_override_styles/normal = SubResource("StyleBoxFlat_e4lwh")
+text = "Back to Main"
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 52.0
+offset_top = 17.0
+offset_right = 417.0
+offset_bottom = 40.0
+theme_override_colors/font_color = Color(0.188235, 0.443137, 0.623529, 1)
+text = "Congratulations you are now a FINKI graduate!!"
+
+[node name="Label2" type="Label" parent="."]
+layout_mode = 0
+offset_left = 151.0
+offset_top = 52.0
+offset_right = 322.0
+offset_bottom = 75.0
+theme_override_colors/font_color = Color(0.188235, 0.435294, 0.619608, 1)
+text = "At least in this game :)"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

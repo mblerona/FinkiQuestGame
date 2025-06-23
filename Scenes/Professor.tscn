@@ -140,19 +140,19 @@ script = ExtResource("1_gq7li")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 z_index = 10
-position = Vector2(21, 10)
+position = Vector2(21.5903, 38.9603)
 scale = Vector2(0.790473, 0.640004)
 sprite_frames = SubResource("SpriteFrames_pki3r")
 animation = &"idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(18, 30)
+position = Vector2(18.5903, 58.9603)
 scale = Vector2(-1.26677, 2.66051)
 shape = SubResource("CircleShape2D_q8eya")
 debug_color = Color(0.192157, 0.6, 0.701961, 1)
 
 [node name="ChatArea" type="Area2D" parent="."]
-position = Vector2(-21, -5)
+position = Vector2(-20.4097, 23.9603)
 scale = Vector2(1.92137, 2.77415)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="ChatArea"]
@@ -164,11 +164,11 @@ debug_color = Color(0.883304, 0.000327289, 0.81381, 0.42)
 [node name="Timer" type="Timer" parent="."]
 
 [node name="Dialogue" parent="." instance=ExtResource("4_r0wvq")]
-offset_left = -39.0
+offset_left = -40.0
 offset_top = -37.0
-offset_right = -17.0
+offset_right = -18.0
 offset_bottom = -12.0
-scale = Vector2(4.51848, 1.06099)
+scale = Vector2(5.97757, 1.6368)
 metadata/_edit_use_anchors_ = true
 
 [node name="MovementBounds" type="ColorRect" parent="."]

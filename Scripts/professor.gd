@@ -177,7 +177,7 @@ extends CharacterBody2D
 signal quiz_result(subject: String, passed: bool)
 
 @export var subject: String 
-const speed = 50
+const speed = 55
 
 var current_state = IDLE
 var dir = Vector2.RIGHT

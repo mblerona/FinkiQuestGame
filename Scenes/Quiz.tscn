@@ -1,6 +1,40 @@
-[gd_scene load_steps=2 format=3 uid="uid://c5q7moa6d42kr"]
+[gd_scene load_steps=8 format=3 uid="uid://c5q7moa6d42kr"]
 
 [ext_resource type="Script" path="res://Scripts/Quiz.gd" id="1_v0n72"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_h2ne5"]
+bg_color = Color(0.372549, 0.635294, 0.788235, 0.717647)
+
+[sub_resource type="LabelSettings" id="LabelSettings_r04ju"]
+font_color = Color(0.0510697, 0.173292, 0.34742, 1)
+
+[sub_resource type="Theme" id="Theme_3b5w0"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_e1h4y"]
+bg_color = Color(1, 1, 1, 0.690196)
+border_width_left = 10
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.117647, 0.309804, 0.584314, 0.552941)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_pitxo"]
+bg_color = Color(0.979353, 0.99446, 1, 0.992157)
+border_width_left = 10
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.118445, 0.307987, 0.584498, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_0chn5"]
 
 [node name="Quiz" type="CanvasLayer"]
 script = ExtResource("1_v0n72")
@@ -9,30 +43,73 @@ script = ExtResource("1_v0n72")
 offset_right = 480.0
 offset_bottom = 271.0
 scale = Vector2(1.00159, 1.00226)
+theme_override_styles/panel = SubResource("StyleBoxFlat_h2ne5")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="Panel"]
 layout_mode = 0
-offset_left = 58.9064
-offset_top = 18.9572
-offset_right = 375.906
-offset_bottom = 181.957
-scale = Vector2(1.21311, 1.14652)
+offset_left = 23.9619
+offset_top = 20.9527
+offset_right = 381.962
+offset_bottom = 186.953
+scale = Vector2(1.21311, 1.18072)
 
 [node name="QuestionLabel" type="Label" parent="Panel/VBoxContainer"]
 layout_mode = 2
+size_flags_stretch_ratio = 0.0
+theme_override_font_sizes/font_size = 1
+text = "Question"
+label_settings = SubResource("LabelSettings_r04ju")
 autowrap_mode = 2
 
 [node name="ProgressLabel" type="Label" parent="Panel/VBoxContainer"]
 layout_mode = 2
+theme_override_colors/font_color = Color(0.66459, 0.775854, 1, 1)
+text = "0/3"
 
 [node name="OptionA" type="Button" parent="Panel/VBoxContainer"]
 layout_mode = 2
+theme = SubResource("Theme_3b5w0")
+theme_override_colors/font_hover_color = Color(0.117647, 0.309804, 0.584314, 0.690196)
+theme_override_colors/font_color = Color(0.117647, 0.309804, 0.584314, 1)
+theme_override_styles/hover = SubResource("StyleBoxFlat_e1h4y")
+theme_override_styles/normal = SubResource("StyleBoxFlat_pitxo")
+text = "Option A"
+icon = SubResource("CanvasTexture_0chn5")
+alignment = 0
+autowrap_mode = 2
 
 [node name="OptionB" type="Button" parent="Panel/VBoxContainer"]
 layout_mode = 2
+theme = SubResource("Theme_3b5w0")
+theme_override_colors/font_hover_color = Color(0.117647, 0.309804, 0.584314, 0.690196)
+theme_override_colors/font_color = Color(0.117647, 0.309804, 0.584314, 1)
+theme_override_styles/hover = SubResource("StyleBoxFlat_e1h4y")
+theme_override_styles/normal = SubResource("StyleBoxFlat_pitxo")
+text = "Option A"
+icon = SubResource("CanvasTexture_0chn5")
+alignment = 0
+autowrap_mode = 2
 
 [node name="OptionC" type="Button" parent="Panel/VBoxContainer"]
 layout_mode = 2
+theme = SubResource("Theme_3b5w0")
+theme_override_colors/font_hover_color = Color(0.117647, 0.309804, 0.584314, 0.690196)
+theme_override_colors/font_color = Color(0.117647, 0.309804, 0.584314, 1)
+theme_override_styles/hover = SubResource("StyleBoxFlat_e1h4y")
+theme_override_styles/normal = SubResource("StyleBoxFlat_pitxo")
+text = "Option A"
+icon = SubResource("CanvasTexture_0chn5")
+alignment = 0
+autowrap_mode = 2
 
 [node name="OptionD" type="Button" parent="Panel/VBoxContainer"]
 layout_mode = 2
+theme = SubResource("Theme_3b5w0")
+theme_override_colors/font_hover_color = Color(0.117647, 0.309804, 0.584314, 0.690196)
+theme_override_colors/font_color = Color(0.117647, 0.309804, 0.584314, 1)
+theme_override_styles/hover = SubResource("StyleBoxFlat_e1h4y")
+theme_override_styles/normal = SubResource("StyleBoxFlat_pitxo")
+text = "Option A"
+icon = SubResource("CanvasTexture_0chn5")
+alignment = 0
+autowrap_mode = 2
