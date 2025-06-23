@@ -15468,7 +15468,6 @@ sources/8 = SubResource("TileSetAtlasSource_pm03p")
 
 [node name="Level1" type="Node2D"]
 position = Vector2(3, 4)
-scale = Vector2(54.8932, -33.6463)
 script = ExtResource("1_3yay0")
 
 [node name="LevelBanner" parent="." instance=ExtResource("3_wca7x")]
@@ -15538,6 +15537,7 @@ layer_0/tile_data = PackedInt32Array(655368, 655360, 48, 589833, 524288, 48, 917
 metadata/_edit_lock_ = true
 
 [node name="tetex" type="TileMap" parent="."]
+scale = Vector2(0.8, 0.8)
 tile_set = SubResource("TileSet_lrcwj")
 format = 2
-layer_0/tile_data = PackedInt32Array(-720875, 65539, 0, -786429, 65543, 1, -1245124, 131080, 1)
+layer_0/tile_data = PackedInt32Array(-982965, 131080, 1, -786406, 65539, 0, -786428, 65543, 1)

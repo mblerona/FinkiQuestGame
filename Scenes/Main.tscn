@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://d4nmoxmm7s2hk"]
 
-[ext_resource type="PackedScene" uid="uid://d2xl3vttu6aiy" path="res://Scenes/level_1.tscn" id="2_dol24"]
+[ext_resource type="PackedScene" uid="uid://d2xl3vttu6aiy" path="res://Scenes/level_1_branch.tscn" id="2_13ynq"]
 [ext_resource type="PackedScene" uid="uid://ok47hp3tt4jb" path="res://Scenes/student_player.tscn" id="2_rquat"]
 
 [sub_resource type="GDScript" id="GDScript_hg3vs"]
@@ -24,4 +24,4 @@ z_index = 4096
 position = Vector2(38, -0.999998)
 scale = Vector2(0.814634, 1.02026)
 
-[node name="Level1" parent="." instance=ExtResource("2_dol24")]
+[node name="Level1" parent="." instance=ExtResource("2_13ynq")]

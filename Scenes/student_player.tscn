@@ -84,7 +84,7 @@ position = Vector2(38, 33)
 script = ExtResource("1_n3o0e")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(206.476, 104.363)
+position = Vector2(206, 103)
 shape = SubResource("CapsuleShape2D_hfo3p")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
@@ -104,4 +104,5 @@ libraries = {
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(202, 103)
 scale = Vector2(-0.345598, 1)
+zoom = Vector2(0.8, 0.8)
 position_smoothing_enabled = true

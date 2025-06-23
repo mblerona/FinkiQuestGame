@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1750376052
+::res://::1750673321
 icon.svg::CompressedTexture2D::8959070096615049931::1748976375::1750373737::1::::<><>::
 ::res://Assets/::1750373521
 ::res://Assets/Player/::1750373738
@@ -88,15 +88,15 @@ quiz.json::JSON::-1::1750373521::0::1::::<><>::
 ::res://Quiz/WebDesign/::1750373521
 dialogueText.json::JSON::-1::1750373521::0::1::::<><>::
 quiz.json::JSON::-1::1750373521::0::1::::<><>::
-::res://Scenes/::1750375882
+::res://Scenes/::1750377173
 LevelBanner.tscn::PackedScene::2628375067757139996::1750375800::0::1::::<><>::res://Scripts/level_banner.gd
-level_1.tscn::PackedScene::9102560540032176000::1750375799::0::1::::<><>::res://Scripts/level_1.gd<>uid://cwnllvsb5ce7f::::res://images/finkimapTileMap2.png<>uid://bdpg7ocxl7f1e::::res://Scenes/LevelBanner.tscn<>uid://ctqoebgdq7wy7::::res://images/exterior.png<>uid://d1kppy7egt3oo::::res://images/walls_floor.png<>uid://coh8xo57eps4o::::res://images/pixel_cars_78x192_each.png<>uid://dv7iilnf4sej0::::res://images/university_building_600px.png<>uid://bko5vjbprnncm::::res://images/university_building_red_nobg_final.png<>uid://blwdnkvgie0j7::::res://images/tetex.png<>uid://yrxmtqd5ca6l::::res://images/la no.png<>uid://dpv1a1ivmatls::::res://images/net village.png
-level_1_branch.tscn::PackedScene::9102560540032176000::1750375803::0::1::::<><>::uid://cwnllvsb5ce7f::::res://images/finkimapTileMap2.png<>uid://ctqoebgdq7wy7::::res://images/exterior.png<>uid://coh8xo57eps4o::::res://images/pixel_cars_78x192_each.png<>uid://dv7iilnf4sej0::::res://images/university_building_600px.png<>uid://bko5vjbprnncm::::res://images/university_building_red_nobg_final.png<>uid://d1kppy7egt3oo::::res://images/walls_floor.png<>uid://blwdnkvgie0j7::::res://images/tetex.png<>uid://yrxmtqd5ca6l::::res://images/la no.png<>uid://dpv1a1ivmatls::::res://images/net village.png
-Main.tscn::PackedScene::9222330259576318580::1750375882::0::1::::<><>::uid://ok47hp3tt4jb::::res://Scenes/student_player.tscn
+level_1.tscn::PackedScene::9102560540032176000::1750377172::0::1::::<><>::res://Scripts/level_1.gd<>uid://cwnllvsb5ce7f::::res://images/finkimapTileMap2.png<>uid://bdpg7ocxl7f1e::::res://Scenes/LevelBanner.tscn<>uid://ctqoebgdq7wy7::::res://images/exterior.png<>uid://d1kppy7egt3oo::::res://images/walls_floor.png<>uid://coh8xo57eps4o::::res://images/pixel_cars_78x192_each.png<>uid://dv7iilnf4sej0::::res://images/university_building_600px.png<>uid://bko5vjbprnncm::::res://images/university_building_red_nobg_final.png<>uid://blwdnkvgie0j7::::res://images/tetex.png<>uid://yrxmtqd5ca6l::::res://images/la no.png<>uid://dpv1a1ivmatls::::res://images/net village.png
+level_1_branch.tscn::PackedScene::9102560540032176000::1750377169::0::1::::<><>::uid://cwnllvsb5ce7f::::res://images/finkimapTileMap2.png<>uid://ctqoebgdq7wy7::::res://images/exterior.png<>uid://coh8xo57eps4o::::res://images/pixel_cars_78x192_each.png<>uid://dv7iilnf4sej0::::res://images/university_building_600px.png<>uid://bko5vjbprnncm::::res://images/university_building_red_nobg_final.png<>uid://d1kppy7egt3oo::::res://images/walls_floor.png<>uid://blwdnkvgie0j7::::res://images/tetex.png<>uid://yrxmtqd5ca6l::::res://images/la no.png<>uid://dpv1a1ivmatls::::res://images/net village.png
+Main.tscn::PackedScene::9222330259576318580::1750377167::0::1::::<><>::uid://d2xl3vttu6aiy::::res://Scenes/level_1.tscn<>uid://ok47hp3tt4jb::::res://Scenes/student_player.tscn
 Professor.tscn::PackedScene::4184887524929069131::1750375797::0::1::::<><>::res://Scripts/professor.gd<>uid://b5vsuduhdrmy::::res://Assets/Professors/Idle.png<>uid://cu6jvgdmvyxs::::res://Assets/Professors/Walk.png<>uid://bxf8v1n2h5i62::::res://Dialogue/dialogue.tscn
 Quiz.tscn::PackedScene::6913501830628096201::1750375800::0::1::::<><>::res://Scripts/Quiz.gd
 StartMenu.tscn::PackedScene::4385140510170311014::1750375800::0::1::::<><>::uid://djb25n1imisn8::::res://images/bg2.png
-student_player.tscn::PackedScene::1005105918802115375::1750373521::0::1::::<><>::res://Scripts/studentPlayer.gd<>uid://bijndqctivfdi::::res://Assets/Player/Character_Walk.png
+student_player.tscn::PackedScene::1005105918802115375::1750377173::0::1::::<><>::res://Scripts/studentPlayer.gd<>uid://bijndqctivfdi::::res://Assets/Player/Character_Walk.png
 ::res://Scripts/::1750373521
 dialogue.gd::GDScript::-1::1750373521::0::1::::<>Control<>::
 level_1.gd::GDScript::-1::1750373521::0::1::::<>Node2D<>::
