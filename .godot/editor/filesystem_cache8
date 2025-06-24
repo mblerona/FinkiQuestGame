@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1750720434
+::res://::1750784220
 icon.svg::CompressedTexture2D::8959070096615049931::1748976375::1750373737::1::::<><>::
 ::res://Assets/::1750674014
 ::res://Assets/Player/::1750674068
@@ -53,8 +53,8 @@ tile_0040.png::CompressedTexture2D::8813885062150160268::1748984391::1750373737:
 tile_0041.png::CompressedTexture2D::6041058805326976339::1748984391::1750373737::1::::<><>::
 tile_0042.png::CompressedTexture2D::8484515408053471321::1748984391::1750373737::1::::<><>::
 tile_0043.png::CompressedTexture2D::831069372745608163::1748984391::1750373737::1::::<><>::
-::res://Dialogue/::1750720242
-dialogue.tscn::PackedScene::4013128525498302297::1750720242::0::1::::<><>::res://Scripts/dialogue.gd<>uid://d3dssknre1y6w::::res://Dialogue/dialogueBanner.png
+::res://Dialogue/::1750720489
+dialogue.tscn::PackedScene::4013128525498302297::1750720489::0::1::::<><>::res://Scripts/dialogue.gd<>uid://d3dssknre1y6w::::res://Dialogue/dialogueBanner.png
 dialogueBanner.png::CompressedTexture2D::9131868402461230852::1750719757::1750719757::1::::<><>::
 Failed.json::JSON::-1::1750674014::0::1::::<><>::
 GameLost.json::JSON::-1::1750674014::0::1::::<><>::
@@ -137,26 +137,26 @@ quiz.json::JSON::-1::1750683310::0::1::::<><>::
 ::res://Quiz/WebProgramming/::1750710391
 dialogueText.json::JSON::-1::1750707197::0::1::::<><>::
 quiz.json::JSON::-1::1750710391::0::1::::<><>::
-::res://Scenes/::1750720364
-GraduateMenu.tscn::PackedScene::3826622408033643391::1750720243::0::1::::<><>::res://Scripts/graduate_menu.gd<>uid://cgi186fjra4kg::::res://images/graduatePic.png
-LevelBanner.tscn::PackedScene::2628375067757139996::1750720242::0::1::::<><>::res://Scripts/level_banner.gd
-level_1.tscn::PackedScene::9102560540032176000::1750720233::0::1::::<><>::res://Scripts/level_1.gd<>uid://cwnllvsb5ce7f::::res://images/finkimapTileMap2.png<>uid://bdpg7ocxl7f1e::::res://Scenes/LevelBanner.tscn<>uid://ctqoebgdq7wy7::::res://images/exterior.png<>uid://d1kppy7egt3oo::::res://images/walls_floor.png<>uid://coh8xo57eps4o::::res://images/pixel_cars_78x192_each.png<>uid://dv7iilnf4sej0::::res://images/university_building_600px.png<>uid://bko5vjbprnncm::::res://images/university_building_red_nobg_final.png<>uid://blwdnkvgie0j7::::res://images/tetex.png<>uid://yrxmtqd5ca6l::::res://images/la no.png<>uid://dpv1a1ivmatls::::res://images/net village.png
+::res://Scenes/::1750721008
+GraduateMenu.tscn::PackedScene::3826622408033643391::1750720489::0::1::::<><>::res://Scripts/graduate_menu.gd<>uid://cgi186fjra4kg::::res://images/graduatePic.png
+LevelBanner.tscn::PackedScene::2628375067757139996::1750720489::0::1::::<><>::res://Scripts/level_banner.gd
+level_1.tscn::PackedScene::9102560540032176000::1750721008::0::1::::<><>::res://Scripts/level_1.gd<>uid://cwnllvsb5ce7f::::res://images/finkimapTileMap2.png<>uid://bdpg7ocxl7f1e::::res://Scenes/LevelBanner.tscn<>uid://ctqoebgdq7wy7::::res://images/exterior.png<>uid://d1kppy7egt3oo::::res://images/walls_floor.png<>uid://coh8xo57eps4o::::res://images/pixel_cars_78x192_each.png<>uid://dv7iilnf4sej0::::res://images/university_building_600px.png<>uid://bko5vjbprnncm::::res://images/university_building_red_nobg_final.png<>uid://blwdnkvgie0j7::::res://images/tetex.png<>uid://yrxmtqd5ca6l::::res://images/la no.png<>uid://dpv1a1ivmatls::::res://images/net village.png
 level_1_branch.tscn::PackedScene::9102560540032176000::1750678980::0::1::::<><>::uid://cwnllvsb5ce7f::::res://images/finkimapTileMap2.png<>uid://ctqoebgdq7wy7::::res://images/exterior.png<>uid://coh8xo57eps4o::::res://images/pixel_cars_78x192_each.png<>uid://dv7iilnf4sej0::::res://images/university_building_600px.png<>uid://bko5vjbprnncm::::res://images/university_building_red_nobg_final.png<>uid://d1kppy7egt3oo::::res://images/walls_floor.png<>uid://blwdnkvgie0j7::::res://images/tetex.png<>uid://yrxmtqd5ca6l::::res://images/la no.png<>uid://dpv1a1ivmatls::::res://images/net village.png
-level_2.tscn::PackedScene::1129694772674386419::1750720242::0::1::::<><>::res://Scripts/level_2.gd<>uid://bdpg7ocxl7f1e::::res://Scenes/LevelBanner.tscn<>uid://cwnllvsb5ce7f::::res://images/finkimapTileMap2.png<>uid://ctqoebgdq7wy7::::res://images/exterior.png<>uid://d1kppy7egt3oo::::res://images/walls_floor.png<>uid://coh8xo57eps4o::::res://images/pixel_cars_78x192_each.png<>uid://dv7iilnf4sej0::::res://images/university_building_600px.png<>uid://bko5vjbprnncm::::res://images/university_building_red_nobg_final.png<>uid://blwdnkvgie0j7::::res://images/tetex.png<>uid://yrxmtqd5ca6l::::res://images/la no.png<>uid://dpv1a1ivmatls::::res://images/net village.png
-level_3.tscn::PackedScene::3115715286494322391::1750720236::0::1::::<><>::res://Scripts/level_3.gd<>uid://bdpg7ocxl7f1e::::res://Scenes/LevelBanner.tscn<>uid://cwnllvsb5ce7f::::res://images/finkimapTileMap2.png<>uid://ctqoebgdq7wy7::::res://images/exterior.png<>uid://d1kppy7egt3oo::::res://images/walls_floor.png<>uid://coh8xo57eps4o::::res://images/pixel_cars_78x192_each.png<>uid://dv7iilnf4sej0::::res://images/university_building_600px.png<>uid://bko5vjbprnncm::::res://images/university_building_red_nobg_final.png<>uid://blwdnkvgie0j7::::res://images/tetex.png<>uid://yrxmtqd5ca6l::::res://images/la no.png<>uid://dpv1a1ivmatls::::res://images/net village.png
-level_4.tscn::PackedScene::5958604459373818055::1750720239::0::1::::<><>::res://Scripts/level_4.gd<>uid://bdpg7ocxl7f1e::::res://Scenes/LevelBanner.tscn<>uid://cwnllvsb5ce7f::::res://images/finkimapTileMap2.png<>uid://ctqoebgdq7wy7::::res://images/exterior.png<>uid://d1kppy7egt3oo::::res://images/walls_floor.png<>uid://coh8xo57eps4o::::res://images/pixel_cars_78x192_each.png<>uid://dv7iilnf4sej0::::res://images/university_building_600px.png<>uid://bko5vjbprnncm::::res://images/university_building_red_nobg_final.png<>uid://blwdnkvgie0j7::::res://images/tetex.png<>uid://yrxmtqd5ca6l::::res://images/la no.png<>uid://dpv1a1ivmatls::::res://images/net village.png
-Main.tscn::PackedScene::9222330259576318580::1750720234::0::1::::<><>::res://Scripts/main.gd<>uid://d2xl3vttu6aiy::::res://Scenes/level_1_branch.tscn<>uid://ok47hp3tt4jb::::res://Scenes/student_player.tscn
-Professor.tscn::PackedScene::4184887524929069131::1750720242::0::1::::<><>::res://Scripts/professor.gd<>uid://b5vsuduhdrmy::::res://Assets/Professors/Idle.png<>uid://cu6jvgdmvyxs::::res://Assets/Professors/Walk.png<>uid://bxf8v1n2h5i62::::res://Dialogue/dialogue.tscn
-Quiz.tscn::PackedScene::6913501830628096201::1750720364::0::1::::<><>::res://Scripts/Quiz.gd
-StartMenu.tscn::PackedScene::4385140510170311014::1750720243::0::1::::<><>::uid://b2swqyry2f4np::::res://images/startMenuMaybe.png
-student_player.tscn::PackedScene::1005105918802115375::1750720234::0::1::::<><>::res://Scripts/studentPlayer.gd<>uid://bijndqctivfdi::::res://Assets/Player/Character_Walk.png
-::res://Scripts/::1750715214
+level_2.tscn::PackedScene::1129694772674386419::1750720489::0::1::::<><>::res://Scripts/level_2.gd<>uid://bdpg7ocxl7f1e::::res://Scenes/LevelBanner.tscn<>uid://cwnllvsb5ce7f::::res://images/finkimapTileMap2.png<>uid://ctqoebgdq7wy7::::res://images/exterior.png<>uid://d1kppy7egt3oo::::res://images/walls_floor.png<>uid://coh8xo57eps4o::::res://images/pixel_cars_78x192_each.png<>uid://dv7iilnf4sej0::::res://images/university_building_600px.png<>uid://bko5vjbprnncm::::res://images/university_building_red_nobg_final.png<>uid://blwdnkvgie0j7::::res://images/tetex.png<>uid://yrxmtqd5ca6l::::res://images/la no.png<>uid://dpv1a1ivmatls::::res://images/net village.png
+level_3.tscn::PackedScene::3115715286494322391::1750720483::0::1::::<><>::res://Scripts/level_3.gd<>uid://bdpg7ocxl7f1e::::res://Scenes/LevelBanner.tscn<>uid://cwnllvsb5ce7f::::res://images/finkimapTileMap2.png<>uid://ctqoebgdq7wy7::::res://images/exterior.png<>uid://d1kppy7egt3oo::::res://images/walls_floor.png<>uid://coh8xo57eps4o::::res://images/pixel_cars_78x192_each.png<>uid://dv7iilnf4sej0::::res://images/university_building_600px.png<>uid://bko5vjbprnncm::::res://images/university_building_red_nobg_final.png<>uid://blwdnkvgie0j7::::res://images/tetex.png<>uid://yrxmtqd5ca6l::::res://images/la no.png<>uid://dpv1a1ivmatls::::res://images/net village.png
+level_4.tscn::PackedScene::5958604459373818055::1750720486::0::1::::<><>::res://Scripts/level_4.gd<>uid://bdpg7ocxl7f1e::::res://Scenes/LevelBanner.tscn<>uid://cwnllvsb5ce7f::::res://images/finkimapTileMap2.png<>uid://ctqoebgdq7wy7::::res://images/exterior.png<>uid://d1kppy7egt3oo::::res://images/walls_floor.png<>uid://coh8xo57eps4o::::res://images/pixel_cars_78x192_each.png<>uid://dv7iilnf4sej0::::res://images/university_building_600px.png<>uid://bko5vjbprnncm::::res://images/university_building_red_nobg_final.png<>uid://blwdnkvgie0j7::::res://images/tetex.png<>uid://yrxmtqd5ca6l::::res://images/la no.png<>uid://dpv1a1ivmatls::::res://images/net village.png
+Main.tscn::PackedScene::9222330259576318580::1750720480::0::1::::<><>::res://Scripts/main.gd<>uid://d2xl3vttu6aiy::::res://Scenes/level_1_branch.tscn<>uid://ok47hp3tt4jb::::res://Scenes/student_player.tscn
+Professor.tscn::PackedScene::4184887524929069131::1750720489::0::1::::<><>::res://Scripts/professor.gd<>uid://b5vsuduhdrmy::::res://Assets/Professors/Idle.png<>uid://cu6jvgdmvyxs::::res://Assets/Professors/Walk.png<>uid://bxf8v1n2h5i62::::res://Dialogue/dialogue.tscn
+Quiz.tscn::PackedScene::6913501830628096201::1750720988::0::1::::<><>::res://Scripts/Quiz.gd
+StartMenu.tscn::PackedScene::4385140510170311014::1750720489::0::1::::<><>::uid://b2swqyry2f4np::::res://images/startMenuMaybe.png
+student_player.tscn::PackedScene::1005105918802115375::1750720480::0::1::::<><>::res://Scripts/studentPlayer.gd<>uid://bijndqctivfdi::::res://Assets/Player/Character_Walk.png
+::res://Scripts/::1750720970
 dialogue.gd::GDScript::-1::1750674014::0::1::::<>Control<>::
 graduate_menu.gd::GDScript::-1::1750715214::0::1::::<>Control<>::
-level_1.gd::GDScript::-1::1750714804::0::1::::<>Node2D<>::
-level_2.gd::GDScript::-1::1750714804::0::1::::<>Node2D<>::
-level_3.gd::GDScript::-1::1750714804::0::1::::<>Node2D<>::
-level_4.gd::GDScript::-1::1750715031::0::1::::<>Node2D<>::
+level_1.gd::GDScript::-1::1750720970::0::1::::<>Node2D<>::
+level_2.gd::GDScript::-1::1750720970::0::1::::<>Node2D<>::
+level_3.gd::GDScript::-1::1750720970::0::1::::<>Node2D<>::
+level_4.gd::GDScript::-1::1750720970::0::1::::<>Node2D<>::
 level_banner.gd::GDScript::-1::1750674014::0::1::::<>CanvasLayer<>::
 main.gd::GDScript::-1::1750705898::0::1::::<>Node<>::
 professor.gd::GDScript::-1::1750684012::0::1::::<>CharacterBody2D<>::
