@@ -1,1 +1,7 @@
+res://Scenes/Minimap.tscn
 res://Scenes/StartMenu.tscn
+res://Scenes/level_1.tscn
+res://Scenes/GraduateMenu.tscn
+res://Scenes/Main.tscn
+res://Scenes/sub_viewport.gd
+res://Scripts/main.gd

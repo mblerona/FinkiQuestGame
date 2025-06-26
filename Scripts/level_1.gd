@@ -253,6 +253,7 @@ func _ready():
 	banner.show_banner("Level 1\nFind all 5 Professors and complete exams")
 	await get_tree().create_timer(5).timeout  # ⏳ Wait for banner duration
 	start_timer(300)  # ⏱️ Start 5-minute timer only AFTER banner
+	
 	spawn_new_professor()
 
 
@@ -396,3 +397,7 @@ func spawn_new_professor():
 
 	await get_tree().process_frame
 	professor.z_index = 1000
+	var minimap = get_tree().root.get_node("Main/MiniMap")
+	if minimap:
+		minimap.professor_ref = professor
+		minimap.player_ref = player

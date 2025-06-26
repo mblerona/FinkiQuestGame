@@ -1,0 +1,32 @@
+[gd_scene load_steps=2 format=3 uid="uid://u1vnxelb7bl3"]
+
+[ext_resource type="Script" path="res://Scenes/sub_viewport.gd" id="1_1fjkj"]
+
+[node name="Minimap" type="CanvasLayer"]
+
+[node name="SubViewportContainer" type="SubViewportContainer" parent="."]
+modulate = Color(0.899838, 1, 0.999967, 1)
+anchors_preset = -1
+anchor_right = 0.164
+anchor_bottom = 0.198
+offset_left = 191.0
+offset_top = 214.0
+offset_right = 624.28
+offset_bottom = 672.54
+scale = Vector2(0.153372, 0.104372)
+size_flags_horizontal = 4
+size_flags_vertical = 8
+
+[node name="SubViewport" type="SubViewport" parent="SubViewportContainer"]
+handle_input_locally = false
+render_target_update_mode = 4
+script = ExtResource("1_1fjkj")
+
+[node name="Camera2D" type="Camera2D" parent="SubViewportContainer/SubViewport"]
+
+[node name="Line2D" type="Line2D" parent="SubViewportContainer"]
+position = Vector2(2.67694, 0.979332)
+scale = Vector2(4.59875, 5.27958)
+points = PackedVector2Array(0.00012207, -0.000244141, 0.00012207, 95.811, 110.841, 95.811, 110.841, -0.000244141, 0.00012207, -0.000244141)
+width = 2.0
+default_color = Color(0.075614, 5.19812e-06, 0.656034, 1)
