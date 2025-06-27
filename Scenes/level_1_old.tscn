@@ -1,4 +1,4 @@
-[gd_scene load_steps=51 format=3 uid="uid://d2xl3vttu6aiy"]
+[gd_scene load_steps=51 format=3 uid="uid://c2or3s8dk3a3g"]
 
 [ext_resource type="Script" path="res://Scripts/level_1.gd" id="1_t81am"]
 [ext_resource type="PackedScene" uid="uid://bdpg7ocxl7f1e" path="res://Scenes/LevelBanner.tscn" id="2_lfnjg"]
@@ -19667,7 +19667,7 @@ offset_left = 14.0
 offset_top = 10.0
 offset_right = 111.0
 offset_bottom = 33.0
-text = "Timer: 90/00"
+text = "Timer: "
 
 [node name="TileMap" type="TileMap" parent="."]
 visible = false

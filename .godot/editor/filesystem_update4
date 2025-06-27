@@ -1,6 +1,14 @@
-res://Scenes/Main.tscn
 res://Scenes/StartMenu.tscn
+res://Scripts/level_1.gd
 res://Scenes/level_1.tscn
 res://Scenes/GraduateMenu.tscn
 res://Scenes/Minimap.tscn
+res://Scenes/Main.tscn
 res://Scenes/student_player.tscn
+res://Scenes/level_1_old.tscn
+res://Scripts/main.gd
+res://Scripts/professor.gd
+res://Scenes/Professor.tscn
+res://Scenes/level_2.tscn
+res://Scenes/level_3.tscn
+res://Scenes/level_4.tscn

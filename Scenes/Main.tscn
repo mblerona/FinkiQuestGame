@@ -2,8 +2,8 @@
 
 [ext_resource type="Script" path="res://Scripts/main.gd" id="1_nqd1l"]
 [ext_resource type="PackedScene" uid="uid://ok47hp3tt4jb" path="res://Scenes/student_player.tscn" id="2_rquat"]
-[ext_resource type="PackedScene" uid="uid://d2xl3vttu6aiy" path="res://Scenes/level_1.tscn" id="4_3qhsc"]
 [ext_resource type="PackedScene" uid="uid://u1vnxelb7bl3" path="res://Scenes/Minimap.tscn" id="4_cao6l"]
+[ext_resource type="PackedScene" uid="uid://d2xl3vttu6aiy" path="res://Scenes/level_1.tscn" id="4_es72j"]
 
 [node name="Main" type="Node2D"]
 position = Vector2(37, 32)
@@ -16,4 +16,5 @@ z_index = 4096
 position = Vector2(38, -0.999998)
 scale = Vector2(0.814634, 1.02026)
 
-[node name="Level1" parent="." instance=ExtResource("4_3qhsc")]
+[node name="Level1" parent="." instance=ExtResource("4_es72j")]
+position = Vector2(-119, -10)

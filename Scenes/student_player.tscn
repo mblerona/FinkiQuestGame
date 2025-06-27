@@ -4,6 +4,8 @@
 [ext_resource type="Texture2D" uid="uid://bijndqctivfdi" path="res://Assets/Player/Character_Walk.png" id="2_aovl0"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_hfo3p"]
+radius = 6.0
+height = 12.0
 
 [sub_resource type="Animation" id="Animation_vvsrx"]
 length = 0.001
@@ -89,7 +91,7 @@ shape = SubResource("CapsuleShape2D_hfo3p")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture_filter = 1
-position = Vector2(206, 105)
+position = Vector2(207, 97)
 scale = Vector2(1.24685, 0.913941)
 texture = ExtResource("2_aovl0")
 hframes = 4
