@@ -1,7 +1,9 @@
-res://Scenes/Minimap.tscn
 res://Scenes/StartMenu.tscn
 res://Scenes/level_1.tscn
 res://Scenes/GraduateMenu.tscn
+res://Scenes/Minimap.tscn
 res://Scenes/Main.tscn
-res://Scenes/sub_viewport.gd
-res://Scripts/main.gd
+res://Dialogue/Failed.json
+res://Scripts/level_2.gd
+res://Scripts/level_3.gd
+res://Scripts/level_4.gd

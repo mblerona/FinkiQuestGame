@@ -270,7 +270,7 @@ extends Node2D
 @onready var timer_label = $UI/TimerLabel
 
 var subjects = ["Databases", "DataScience", "HID", "ComputerArchitecture", "SoftwareTesting"]
-var retries_left = 4
+var retries_left = 3
 var passed_count = 0
 var completed_subjects: Array[String] = []
 var game_ended = false

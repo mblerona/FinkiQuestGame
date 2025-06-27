@@ -138,7 +138,7 @@ var subjects = [
 	"OperatingSystems",
 	"DiscreteMaths"
 ]
-var retries_left = 4
+var retries_left = 3
 var passed_count = 0
 var completed_subjects: Array[String] = []
 var game_ended = false
