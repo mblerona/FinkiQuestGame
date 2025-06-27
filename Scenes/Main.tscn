@@ -17,4 +17,4 @@ position = Vector2(38, -0.999998)
 scale = Vector2(0.814634, 1.02026)
 
 [node name="Level1" parent="." instance=ExtResource("4_es72j")]
-position = Vector2(-119, -10)
+position = Vector2(-537, -975)
