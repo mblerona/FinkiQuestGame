@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://ctyy0s5j0jgqf"]
+
+[ext_resource type="Texture2D" uid="uid://bpkm6qa2co1g3" path="res://images/coffee.png" id="1_u683k"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_c01wt"]
+radius = 14.9998
+
+[node name="CoffeeBonus" type="Area2D" groups=["BonusCoffee"]]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(41, 36)
+scale = Vector2(0.02, 0.02)
+texture = ExtResource("1_u683k")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(41, 38)
+scale = Vector2(0.400005, 0.319995)
+shape = SubResource("CircleShape2D_c01wt")
+debug_color = Color(1, 1, 1, 0)

@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://ok47hp3tt4jb"]
+[gd_scene load_steps=10 format=3 uid="uid://ok47hp3tt4jb"]
 
 [ext_resource type="Script" path="res://Scripts/studentPlayer.gd" id="1_n3o0e"]
 [ext_resource type="Texture2D" uid="uid://bijndqctivfdi" path="res://Assets/Player/Character_Walk.png" id="2_aovl0"]
@@ -81,6 +81,8 @@ _data = {
 "idle_up": SubResource("Animation_wm1y2")
 }
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_mt8cf"]
+
 [node name="StudentPlayer" type="CharacterBody2D"]
 position = Vector2(38, 33)
 script = ExtResource("1_n3o0e")
@@ -108,3 +110,27 @@ position = Vector2(202, 103)
 scale = Vector2(-0.345598, 1)
 zoom = Vector2(0.8, 0.8)
 position_smoothing_enabled = true
+
+[node name="BonusTimer" type="Timer" parent="."]
+wait_time = 10.0
+one_shot = true
+
+[node name="BonusLabel" type="Label" parent="."]
+offset_left = 188.0
+offset_top = 54.0
+offset_right = 228.0
+offset_bottom = 77.0
+
+[node name="PickupArea" type="Area2D" parent="."]
+position = Vector2(207, 103)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PickupArea"]
+shape = SubResource("CircleShape2D_mt8cf")
+
+[node name="LabelTimer" type="Timer" parent="."]
+wait_time = 2.0
+one_shot = true
+
+[connection signal="timeout" from="BonusTimer" to="." method="_on_bonus_timer_timeout"]
+[connection signal="area_entered" from="PickupArea" to="." method="_on_pickup_area_area_entered"]
+[connection signal="timeout" from="LabelTimer" to="." method="_on_label_timer_timeout"]

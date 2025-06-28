@@ -1,8 +1,9 @@
-[gd_scene load_steps=59 format=4 uid="uid://qdh54ql7piwp"]
+[gd_scene load_steps=60 format=4 uid="uid://qdh54ql7piwp"]
 
 [ext_resource type="Script" path="res://Scripts/level_2.gd" id="1_qc0gy"]
 [ext_resource type="PackedScene" uid="uid://bdpg7ocxl7f1e" path="res://Scenes/LevelBanner.tscn" id="2_sj2nv"]
 [ext_resource type="Texture2D" uid="uid://cwnllvsb5ce7f" path="res://images/finkimapTileMap2.png" id="3_608yt"]
+[ext_resource type="PackedScene" uid="uid://ctyy0s5j0jgqf" path="res://Scenes/CoffeeBonus.tscn" id="3_ejcuf"]
 [ext_resource type="Texture2D" uid="uid://ctqoebgdq7wy7" path="res://images/exterior.png" id="4_7drtq"]
 [ext_resource type="Texture2D" uid="uid://d1kppy7egt3oo" path="res://images/walls_floor.png" id="5_b77rv"]
 [ext_resource type="Texture2D" uid="uid://coh8xo57eps4o" path="res://images/pixel_cars_78x192_each.png" id="6_m2t46"]
@@ -20455,6 +20456,14 @@ offset_top = 4.0
 offset_right = 103.0
 offset_bottom = 27.0
 text = "Timer: "
+
+[node name="CoffeeBonus" parent="." instance=ExtResource("3_ejcuf")]
+z_index = 4096
+position = Vector2(337, -484)
+
+[node name="CoffeeBonus2" parent="." instance=ExtResource("3_ejcuf")]
+z_index = 4096
+position = Vector2(1340, 1146)
 
 [node name="ProfessorSpawnPoints" type="Node2D" parent="."]
 

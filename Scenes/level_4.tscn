@@ -1,4 +1,4 @@
-[gd_scene load_steps=59 format=4 uid="uid://cq5nlyxjn5j1p"]
+[gd_scene load_steps=60 format=4 uid="uid://cq5nlyxjn5j1p"]
 
 [ext_resource type="Script" path="res://Scripts/level_4.gd" id="1_p7dus"]
 [ext_resource type="PackedScene" uid="uid://bdpg7ocxl7f1e" path="res://Scenes/LevelBanner.tscn" id="2_bde3k"]
@@ -17,6 +17,7 @@
 [ext_resource type="Texture2D" uid="uid://vx0ytslkxlck" path="res://images/basketball.png" id="15_0ndc0"]
 [ext_resource type="Texture2D" uid="uid://bkbm123bxf60j" path="res://images/3-benches.png" id="16_h0b32"]
 [ext_resource type="Texture2D" uid="uid://duumpaeyyuvay" path="res://images/black&yellow_cevron.png" id="17_i2sn4"]
+[ext_resource type="PackedScene" uid="uid://ctyy0s5j0jgqf" path="res://Scenes/CoffeeBonus.tscn" id="18_th1qf"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_i52e8"]
 texture = ExtResource("4_e4w2p")
@@ -20617,5 +20618,21 @@ layer_0/tile_data = PackedInt32Array(2555899, 3276800, 30, 2555900, 3276800, 30,
 [node name="TileMap" type="TileMap" parent="gray_border"]
 tile_set = SubResource("TileSet_8hi5l")
 format = 2
+
+[node name="CoffeeBonus" parent="." instance=ExtResource("18_th1qf")]
+z_index = 4096
+position = Vector2(337, -484)
+
+[node name="CoffeeBonus2" parent="." instance=ExtResource("18_th1qf")]
+z_index = 4096
+position = Vector2(1340, 1146)
+
+[node name="CoffeeBonus3" parent="." instance=ExtResource("18_th1qf")]
+z_index = 4096
+position = Vector2(-1882, -565)
+
+[node name="CoffeeBonus4" parent="." instance=ExtResource("18_th1qf")]
+z_index = 4096
+position = Vector2(767, -1296)
 
 [connection signal="timeout" from="UI/Timer" to="." method="_on_timer_timeout"]

@@ -16,3 +16,5 @@ res://Scripts/level_3.gd
 res://Scripts/level_4.gd
 res://Dialogue/Passed.json
 res://Scripts/professor.gd
+res://Scripts/studentPlayer.gd
+res://Scenes/CoffeeBonus.tscn

@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://u1vnxelb7bl3"]
 
-[ext_resource type="Script" path="res://Scenes/sub_viewport.gd" id="1_1fjkj"]
+[ext_resource type="Script" path="res://Scripts/sub_viewport.gd" id="1_1fjkj"]
 
 [node name="Minimap" type="CanvasLayer"]
 
@@ -24,6 +24,7 @@ script = ExtResource("1_1fjkj")
 
 [node name="Camera2D" type="Camera2D" parent="SubViewportContainer/SubViewport"]
 zoom = Vector2(0.6, 0.6)
+limit_smoothed = true
 
 [node name="Line2D" type="Line2D" parent="SubViewportContainer"]
 position = Vector2(2.67694, 0.979332)

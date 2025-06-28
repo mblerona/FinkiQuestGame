@@ -1,3 +1,8 @@
+Timer
+CollisionShape2D
+Area2D
+Label
+Sprite2D
 Marker2D
 Node2D
 TileMap
@@ -7,8 +12,3 @@ SubViewport
 SubViewportContainer
 CanvasLayer
 TextureRect
-Panel
-NinePatchRect
-Label
-Button
-Control
