@@ -1,3 +1,5 @@
+
+
 extends CharacterBody2D
 
 signal quiz_result(subject: String, passed: bool)
@@ -152,18 +154,20 @@ func _on_quiz_done(subject: String, passed: bool) -> void:
 		print("🎉 FINAL EXAM PASSED — Level Complete")
 		should_skip_dialog = true
 
+	var result_path = ""
+	if passed:
+		result_path = "res://Dialogue/Passed.json"
+	else:
+		result_path = "res://Dialogue/Failed.json"
+
 	if should_skip_dialog:
-		emit_signal("quiz_result", subject, passed)
-		if passed:
-			queue_free()
+		# ✅ Even in final fail/pass, show dialogue before proceeding
+		post_quiz_dialog = true
+		if dialogue_node:
+			dialogue_node.custom_dialog_path = result_path
+			dialogue_node.start()
 	else:
 		post_quiz_dialog = true
-		var result_path = ""
-		if passed:
-			result_path = "res://Dialogue/Passed.json"
-		else:
-			result_path = "res://Dialogue/Failed.json"
-
 		if dialogue_node:
 			dialogue_node.custom_dialog_path = result_path
 			dialogue_node.start()

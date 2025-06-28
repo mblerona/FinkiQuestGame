@@ -20452,6 +20452,54 @@ sources/0 = SubResource("TileSetAtlasSource_2kwse")
 position = Vector2(3, 4)
 script = ExtResource("1_mdbgw")
 
+[node name="ProfessorSpawnPoints" type="Node2D" parent="."]
+
+[node name="spawn6" type="Marker2D" parent="ProfessorSpawnPoints"]
+position = Vector2(-792, -1101)
+
+[node name="spawn7" type="Marker2D" parent="ProfessorSpawnPoints"]
+position = Vector2(805, -1119)
+
+[node name="spawn8" type="Marker2D" parent="ProfessorSpawnPoints"]
+position = Vector2(837, -424)
+
+[node name="spawn9" type="Marker2D" parent="ProfessorSpawnPoints"]
+position = Vector2(125, 46)
+
+[node name="spawn10" type="Marker2D" parent="ProfessorSpawnPoints"]
+position = Vector2(1158, 192)
+
+[node name="spawn1" type="Marker2D" parent="ProfessorSpawnPoints"]
+position = Vector2(824, 408)
+scale = Vector2(0.245502, 0.0996363)
+
+[node name="spawn2" type="Marker2D" parent="ProfessorSpawnPoints"]
+position = Vector2(216, 993)
+
+[node name="spawn3" type="Marker2D" parent="ProfessorSpawnPoints"]
+position = Vector2(716, 1191)
+
+[node name="spawn4" type="Marker2D" parent="ProfessorSpawnPoints"]
+position = Vector2(1511, 852)
+
+[node name="spawn5" type="Marker2D" parent="ProfessorSpawnPoints"]
+position = Vector2(-150, 591)
+
+[node name="spawn11" type="Marker2D" parent="ProfessorSpawnPoints"]
+position = Vector2(-495, -487)
+
+[node name="spawn12" type="Marker2D" parent="ProfessorSpawnPoints"]
+position = Vector2(-1679, -484)
+
+[node name="spawn13" type="Marker2D" parent="ProfessorSpawnPoints"]
+position = Vector2(-743, 306)
+
+[node name="spawn14" type="Marker2D" parent="ProfessorSpawnPoints"]
+position = Vector2(1513, -348)
+
+[node name="spawn15" type="Marker2D" parent="ProfessorSpawnPoints"]
+position = Vector2(-2026, -132)
+
 [node name="LevelBanner" parent="." instance=ExtResource("2_m7c16")]
 
 [node name="UI" type="CanvasLayer" parent="."]
@@ -20474,11 +20522,11 @@ metadata/_edit_use_anchors_ = true
 one_shot = true
 
 [node name="TimerLabel" type="Label" parent="UI"]
-offset_left = 14.0
-offset_top = 10.0
-offset_right = 111.0
-offset_bottom = 33.0
-text = "Timer: 90/00"
+offset_left = 10.0
+offset_top = 4.0
+offset_right = 107.0
+offset_bottom = 27.0
+text = "Timer: "
 
 [node name="grass" type="TileMap" parent="."]
 position = Vector2(171, -892)

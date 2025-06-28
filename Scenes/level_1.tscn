@@ -20430,7 +20430,6 @@ position = Vector2(3, 4)
 script = ExtResource("1_3yay0")
 
 [node name="LevelBanner" parent="." instance=ExtResource("3_wca7x")]
-visible = false
 
 [node name="UI" type="CanvasLayer" parent="."]
 
@@ -20450,11 +20449,29 @@ offset_bottom = 264.0
 one_shot = true
 
 [node name="TimerLabel" type="Label" parent="UI"]
-offset_left = 14.0
-offset_top = 10.0
-offset_right = 111.0
-offset_bottom = 33.0
+offset_left = 12.0
+offset_top = 5.0
+offset_right = 109.0
+offset_bottom = 28.0
 text = "Timer:"
+
+[node name="ProfessorSpawnPoints" type="Node2D" parent="."]
+
+[node name="spawn1" type="Marker2D" parent="ProfessorSpawnPoints"]
+position = Vector2(704, 488)
+scale = Vector2(-0.714493, -0.820364)
+
+[node name="spawn2" type="Marker2D" parent="ProfessorSpawnPoints"]
+position = Vector2(216, 993)
+
+[node name="spawn3" type="Marker2D" parent="ProfessorSpawnPoints"]
+position = Vector2(723, 1099)
+
+[node name="spawn4" type="Marker2D" parent="ProfessorSpawnPoints"]
+position = Vector2(1511, 852)
+
+[node name="spawn5" type="Marker2D" parent="ProfessorSpawnPoints"]
+position = Vector2(-150, 591)
 
 [node name="grass" type="TileMap" parent="."]
 position = Vector2(171, -892)
