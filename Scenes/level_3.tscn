@@ -20651,6 +20651,10 @@ position = Vector2(1340, 1146)
 z_index = 4096
 position = Vector2(-1882, -565)
 
+[node name="CoffeeBonus4" parent="." instance=ExtResource("18_prfkp")]
+z_index = 4096
+position = Vector2(-1528, 11)
+
 [node name="level_won" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("19_iuyxs")
 volume_db = -5.0

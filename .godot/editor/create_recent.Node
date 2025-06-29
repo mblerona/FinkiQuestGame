@@ -1,9 +1,11 @@
+ColorRect
+CanvasLayer
+Label
+Timer
 Marker2D
 AudioStreamPlayer
-Timer
 CollisionShape2D
 Area2D
-Label
 Sprite2D
 Node2D
 TileMap
@@ -11,4 +13,3 @@ Line2D
 Camera2D
 SubViewport
 SubViewportContainer
-CanvasLayer

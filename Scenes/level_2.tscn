@@ -20469,6 +20469,10 @@ position = Vector2(337, -484)
 z_index = 4096
 position = Vector2(1340, 1146)
 
+[node name="CoffeeBonus3" parent="." instance=ExtResource("3_ejcuf")]
+z_index = 4096
+position = Vector2(-392, -1175)
+
 [node name="ProfessorSpawnPoints" type="Node2D" parent="."]
 
 [node name="spawn6" type="Marker2D" parent="ProfessorSpawnPoints"]
@@ -20494,7 +20498,7 @@ scale = Vector2(0.245502, 0.0996363)
 position = Vector2(216, 993)
 
 [node name="spawn3" type="Marker2D" parent="ProfessorSpawnPoints"]
-position = Vector2(716, 1191)
+position = Vector2(686, 1113)
 
 [node name="spawn4" type="Marker2D" parent="ProfessorSpawnPoints"]
 position = Vector2(1511, 852)

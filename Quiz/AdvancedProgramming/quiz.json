@@ -5,7 +5,7 @@
 	"answer": 1
   },
   {
-	"question": "Which principle allows multiple functions with the same name but different parameters?",
+	"question": "Which principle allows multiple functions, same name different parameters?",
 	"options": ["A) Polymorphism", "B) Encapsulation", "C) Overloading", "D) Abstraction"],
 	"answer": 2
   },

@@ -20461,20 +20461,20 @@ text = "Timer:"
 [node name="ProfessorSpawnPoints" type="Node2D" parent="."]
 
 [node name="spawn1" type="Marker2D" parent="ProfessorSpawnPoints"]
-position = Vector2(704, 488)
+position = Vector2(1023, 525)
 scale = Vector2(-0.714493, -0.820364)
 
 [node name="spawn2" type="Marker2D" parent="ProfessorSpawnPoints"]
 position = Vector2(216, 993)
 
 [node name="spawn3" type="Marker2D" parent="ProfessorSpawnPoints"]
-position = Vector2(723, 1099)
+position = Vector2(709, 1066)
 
 [node name="spawn4" type="Marker2D" parent="ProfessorSpawnPoints"]
 position = Vector2(1511, 852)
 
 [node name="spawn5" type="Marker2D" parent="ProfessorSpawnPoints"]
-position = Vector2(-150, 591)
+position = Vector2(-126, 591)
 
 [node name="grass" type="TileMap" parent="."]
 position = Vector2(171, -892)
@@ -20592,5 +20592,8 @@ volume_db = -5.0
 [node name="game_over" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("20_h3ixa")
 volume_db = 3.0
+
+[node name="CoffeeBonus2" parent="." instance=ExtResource("2_lutcr")]
+position = Vector2(94, 517)
 
 [connection signal="timeout" from="UI/Timer" to="." method="_on_timer_timeout"]
