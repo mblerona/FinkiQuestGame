@@ -1,7 +1,9 @@
-[gd_scene load_steps=7 format=3 uid="uid://burv6aiu048wx"]
+[gd_scene load_steps=9 format=3 uid="uid://burv6aiu048wx"]
 
 [ext_resource type="Script" path="res://Scripts/graduate_menu.gd" id="1_l48nr"]
 [ext_resource type="Texture2D" uid="uid://cgi186fjra4kg" path="res://images/graduatePic.png" id="2_w1qum"]
+[ext_resource type="AudioStream" uid="uid://csgg18t6caf17" path="res://Sound/victory.mp3" id="3_vmdiy"]
+[ext_resource type="AudioStream" uid="uid://cp0yaobnlgdqp" path="res://Sound/button click.mp3" id="4_gn37t"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_371jo"]
 bg_color = Color(0.909804, 0.784314, 0.584314, 1)
@@ -85,5 +87,13 @@ offset_right = 322.0
 offset_bottom = 75.0
 theme_override_colors/font_color = Color(0.188235, 0.435294, 0.619608, 1)
 text = "At least in this game :)"
+
+[node name="wining_music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_vmdiy")
+volume_db = -5.0
+
+[node name="click_sound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_gn37t")
+volume_db = -16.0
 
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

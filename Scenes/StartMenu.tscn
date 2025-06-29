@@ -1,11 +1,15 @@
-[gd_scene load_steps=12 format=3 uid="uid://b3qgvg2brtv1w"]
+[gd_scene load_steps=13 format=3 uid="uid://b3qgvg2brtv1w"]
 
 [ext_resource type="Texture2D" uid="uid://b2swqyry2f4np" path="res://images/startMenuMaybe.png" id="1_gpecp"]
+[ext_resource type="AudioStream" uid="uid://cp0yaobnlgdqp" path="res://Sound/button click.mp3" id="2_o4e4r"]
 
 [sub_resource type="GDScript" id="GDScript_k36g8"]
 script/source = "extends Control
+@onready var click_sound: AudioStreamPlayer = $click_sound
+
 
 func _on_pressed():
+	click_sound.play()
 	get_tree().change_scene_to_file(\"res://Scenes/Main.tscn\")
 
 
@@ -13,6 +17,7 @@ func _on_pressed():
 
 
 func _on_quit_game_pressed() -> void:
+	click_sound.play()
 	get_tree().quit()
 "
 
@@ -130,6 +135,10 @@ theme_override_styles/hover = SubResource("StyleBoxFlat_s6syq")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_8hm2m")
 theme_override_styles/normal = SubResource("StyleBoxFlat_jv14w")
 text = "Quit Game"
+
+[node name="click_sound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_o4e4r")
+volume_db = -16.0
 
 [connection signal="pressed" from="Start" to="." method="_on_pressed"]
 [connection signal="pressed" from="Quit Game" to="." method="_on_quit_game_pressed"]

@@ -1,6 +1,8 @@
-[gd_scene load_steps=8 format=3 uid="uid://c5q7moa6d42kr"]
+[gd_scene load_steps=10 format=3 uid="uid://c5q7moa6d42kr"]
 
 [ext_resource type="Script" path="res://Scripts/Quiz.gd" id="1_v0n72"]
+[ext_resource type="AudioStream" uid="uid://t0c81t6y4wfb" path="res://Sound/correct_ANSWER.mp3" id="2_2d1ec"]
+[ext_resource type="AudioStream" uid="uid://bwimplph8dcvh" path="res://Sound/incorrect_ANSWER.mp3" id="3_hfa3b"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_h2ne5"]
 bg_color = Color(0.372549, 0.635294, 0.788235, 0.717647)
@@ -113,3 +115,11 @@ text = "Option A"
 icon = SubResource("CanvasTexture_0chn5")
 alignment = 0
 autowrap_mode = 2
+
+[node name="correct_sound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_2d1ec")
+volume_db = -6.0
+
+[node name="incorrect_sound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_hfa3b")
+volume_db = -16.0

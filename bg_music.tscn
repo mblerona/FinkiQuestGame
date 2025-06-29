@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://ciyxtcsrt3rd5"]
+
+[ext_resource type="AudioStream" uid="uid://duidfdhiqevab" path="res://Sound/kids-game-gaming-background-music-295075.mp3" id="1_iihb7"]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer"]
+stream = ExtResource("1_iihb7")
+volume_db = -10.0
+autoplay = true

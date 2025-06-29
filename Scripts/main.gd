@@ -28,6 +28,9 @@ func _switch_level(current_name: String, next_scene_path: String, next_name: Str
 	next_level.name = next_name
 	add_child(next_level)
 
+	var spawn_point = next_level.get_node_or_null("PlayerSpawn")
+	if spawn_point:
+		player.global_position = spawn_point.global_position
 	# Give some time for level to load and spawn professors (1 frame delay)
 	await get_tree().process_frame
 	_update_minimap_professors(next_level)

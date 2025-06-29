@@ -125,11 +125,13 @@ var direction: Vector2 = Vector2.ZERO
 @onready var bonus_timer: Timer = $BonusTimer
 @onready var bonus_label: Label = $BonusLabel
 @onready var label_timer: Timer = $LabelTimer
+@onready var power_up: AudioStreamPlayer = $power_up
+@onready var steps: AudioStreamPlayer = $steps
 
 func _process(delta):
 	direction.x = Input.get_action_strength("Move_right") - Input.get_action_strength("Move_left")
 	direction.y = Input.get_action_strength("Move_down") - Input.get_action_strength("Move_up")
-
+	
 	if direction.length() > 0:
 		direction = direction.normalized()
 	
@@ -145,17 +147,21 @@ func update_animation():
 			animation_player.play("idle_side")
 			sprite.flip_h = velocity.x > 0
 			cardinal_direction = Vector2.RIGHT if velocity.x > 0 else Vector2.LEFT
+			
 		else:
 			if velocity.y > 0:
 				animation_player.play("idle_down")
 				cardinal_direction = Vector2.DOWN
+				
 			else:
 				animation_player.play("idle_up")
 				cardinal_direction = Vector2.UP
+				
 	else:
 		animation_player.play("RESET")
 
 func apply_coffee_bonus():
+	power_up.play()
 	moveSpeed = base_speed * 1.8
 	if bonus_label:
 		bonus_label.text = "Bonus: ☕Coffee makes you faster!"

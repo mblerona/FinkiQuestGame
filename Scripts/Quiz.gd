@@ -80,6 +80,9 @@ extends CanvasLayer
 signal quiz_done(subject: String, passed: bool)
 
 @export var subject: String
+@onready var correct_sound: AudioStreamPlayer = $correct_sound
+@onready var incorrect_sound: AudioStreamPlayer = $incorrect_sound
+
 var quiz_data = []
 var current_question_index = 0
 var correct_answer = 0
@@ -93,6 +96,7 @@ var score = 0
 	$Panel/VBoxContainer/OptionC,
 	$Panel/VBoxContainer/OptionD
 ]
+
 
 func _ready():
 	print("🧪 QUIZ STARTED | Subject:", subject)
@@ -140,10 +144,12 @@ func _on_option_pressed(index):
 	if index == correct_answer:
 		option_buttons[index].modulate = Color(0, 1, 0)
 		print("✅ Correct!")
+		correct_sound.play()
 		score += 1
 	else:
 		option_buttons[index].modulate = Color(1, 0, 0)
 		option_buttons[correct_answer].modulate = Color(0, 1, 0)
+		incorrect_sound.play()
 		print("❌ Wrong!")
 
 	await get_tree().create_timer(1.5).timeout

@@ -165,6 +165,8 @@ extends Node2D
 @onready var passed_label = $UI/Passed
 @onready var level_timer = $UI/Timer
 @onready var timer_label = $UI/TimerLabel
+@onready var level_won: AudioStreamPlayer = $level_won
+@onready var game_over: AudioStreamPlayer = $game_over
 
 var subjects = ["Databases", "DataScience", "HID", "ComputerArchitecture", "SoftwareTesting"]
 var retries_left = 3
@@ -191,7 +193,7 @@ func _ready():
 
 func update_ui():
 	retries_label.text = "Retries left: %d" % retries_left
-	passed_label.text = "Exams passed: %d" % passed_count
+	passed_label.text = "Exams passed: %d / 5" % passed_count
 	print("UI UPDATED | Retries:", retries_left, " Passed:", passed_count)
 
 func start_timer(seconds: int):
@@ -229,8 +231,11 @@ func _on_timer_timeout():
 	game_ended = true
 	banner.show_banner("⏰ Time's Up!")
 	await get_tree().create_timer(2).timeout
+	BgMusic.stop()
+	game_over.play()
 	banner.show_banner("You have to start all over again! :( ")
 	await get_tree().create_timer(3).timeout
+	BgMusic.play()
 	get_tree().change_scene_to_file("res://Scenes/StartMenu.tscn")
 
 func _on_quiz_result(subject: String, passed: bool) -> void:
@@ -249,6 +254,7 @@ func _on_quiz_result(subject: String, passed: bool) -> void:
 			if completed_subjects.size() >= 5:
 				game_ended = true
 				banner.show_banner("🎉 Level 3 Complete!")
+				level_won.play()
 				await get_tree().create_timer(3).timeout
 				var main_node = get_tree().current_scene
 				if main_node.has_method("switch_to_level4"):
@@ -270,8 +276,11 @@ func _on_quiz_result(subject: String, passed: bool) -> void:
 			game_ended = true
 			banner.show_banner("Game Over!")
 			await get_tree().create_timer(2).timeout
+			BgMusic.stop()
+			game_over.play()
 			banner.show_banner("You have to start all over again! :( ")
 			await get_tree().create_timer(3).timeout
+			BgMusic.play()
 			get_tree().change_scene_to_file("res://Scenes/StartMenu.tscn")
 
 func spawn_new_professor():
