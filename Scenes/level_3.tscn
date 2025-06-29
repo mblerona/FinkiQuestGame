@@ -20461,13 +20461,13 @@ position = Vector2(-272, -187)
 [node name="ProfessorSpawnPoints" type="Node2D" parent="."]
 
 [node name="spawn6" type="Marker2D" parent="ProfessorSpawnPoints"]
-position = Vector2(-792, -1101)
+position = Vector2(-879, -1222)
 
 [node name="spawn7" type="Marker2D" parent="ProfessorSpawnPoints"]
 position = Vector2(805, -1119)
 
 [node name="spawn8" type="Marker2D" parent="ProfessorSpawnPoints"]
-position = Vector2(837, -424)
+position = Vector2(802, -477)
 
 [node name="spawn9" type="Marker2D" parent="ProfessorSpawnPoints"]
 position = Vector2(125, 46)
@@ -20480,10 +20480,10 @@ position = Vector2(824, 408)
 scale = Vector2(0.245502, 0.0996363)
 
 [node name="spawn2" type="Marker2D" parent="ProfessorSpawnPoints"]
-position = Vector2(216, 993)
+position = Vector2(173, 915)
 
 [node name="spawn3" type="Marker2D" parent="ProfessorSpawnPoints"]
-position = Vector2(716, 1191)
+position = Vector2(654, 1127)
 
 [node name="spawn4" type="Marker2D" parent="ProfessorSpawnPoints"]
 position = Vector2(1511, 852)
@@ -20495,7 +20495,7 @@ position = Vector2(-150, 591)
 position = Vector2(-495, -487)
 
 [node name="spawn12" type="Marker2D" parent="ProfessorSpawnPoints"]
-position = Vector2(-1679, -484)
+position = Vector2(-1708, -622)
 
 [node name="spawn13" type="Marker2D" parent="ProfessorSpawnPoints"]
 position = Vector2(-743, 306)

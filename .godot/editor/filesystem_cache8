@@ -1,15 +1,15 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1751188965
-bg_music.tscn::PackedScene::5385327737157810168::1751188934::0::1::::<><>::uid://duidfdhiqevab::::res://Sound/kids-game-gaming-background-music-295075.mp3
+::res://::1751210466
+bg_music.tscn::PackedScene::5385327737157810168::1751194865::0::1::::<><>::uid://duidfdhiqevab::::res://Sound/kids-game-gaming-background-music-295075.mp3
 icon.svg::CompressedTexture2D::8959070096615049931::1748976375::1751188968::1::::<><>::
 ::res://Assets/::1750674014
-::res://Assets/Player/::1751110395
+::res://Assets/Player/::1751188969
 Character_Idle.png::CompressedTexture2D::4417147122787429831::1750674014::1751188969::1::::<><>::
 Character_Walk.png::CompressedTexture2D::2967306355209582986::1750674014::1751188969::1::::<><>::
-::res://Assets/Professors/::1751110395
+::res://Assets/Professors/::1751188969
 Idle.png::CompressedTexture2D::133428433417826492::1750674014::1751188969::1::::<><>::
 Walk.png::CompressedTexture2D::183564653690540488::1750674014::1751188969::1::::<><>::
-::res://Assets/Tiles/::1751110395
+::res://Assets/Tiles/::1751188969
 tile_0000.png::CompressedTexture2D::1525051821680529885::1748984391::1751188969::1::::<><>::
 tile_0001.png::CompressedTexture2D::7835067139276973534::1748984391::1751188969::1::::<><>::
 tile_0002.png::CompressedTexture2D::94958599194018029::1748984391::1751188969::1::::<><>::
@@ -54,14 +54,14 @@ tile_0040.png::CompressedTexture2D::8813885062150160268::1748984391::1751188968:
 tile_0041.png::CompressedTexture2D::6041058805326976339::1748984391::1751188968::1::::<><>::
 tile_0042.png::CompressedTexture2D::8484515408053471321::1748984391::1751188968::1::::<><>::
 tile_0043.png::CompressedTexture2D::831069372745608163::1748984391::1751188968::1::::<><>::
-::res://Dialogue/::1751115451
+::res://Dialogue/::1751188969
 dialogue.tscn::PackedScene::4013128525498302297::1750720489::0::1::::<><>::res://Scripts/dialogue.gd<>uid://d3dssknre1y6w::::res://Dialogue/dialogueBanner.png
 dialogueBanner.png::CompressedTexture2D::9131868402461230852::1750719757::1751188969::1::::<><>::
 Failed.json::JSON::-1::1751029571::0::1::::<><>::
 GameLost.json::JSON::-1::1750674014::0::1::::<><>::
 GameWon.json::JSON::-1::1750674014::0::1::::<><>::
 Passed.json::JSON::-1::1751115451::0::1::::<><>::
-::res://images/::1751116138
+::res://images/::1751188969
 3-benches.png::CompressedTexture2D::3091149993843591439::1751110370::1751188968::1::::<><>::
 baraka.png::CompressedTexture2D::7190012804807750787::1751110370::1751188968::1::::<><>::
 basketball.png::CompressedTexture2D::1523008214879136050::1751110370::1751188968::1::::<><>::
@@ -87,9 +87,9 @@ university_building_600px.png::CompressedTexture2D::8699788476007219227::1750674
 university_building_red_nobg_final.png::CompressedTexture2D::3119069895044989340::1750674014::1751188968::1::::<><>::
 walls_floor.png::CompressedTexture2D::9005754615193497426::1750674014::1751188968::1::::<><>::
 ::res://Quiz/::1750710370
-::res://Quiz/AdvancedProgramming/::1750710075
+::res://Quiz/AdvancedProgramming/::1751190335
 dialogueText.json::JSON::-1::1750707086::0::1::::<><>::
-quiz.json::JSON::-1::1750710075::0::1::::<><>::
+quiz.json::JSON::-1::1751190335::0::1::::<><>::
 ::res://Quiz/AlgorithmAndDataStructures/::1750682772
 dialogueText.json::JSON::-1::1750682772::0::1::::<><>::
 quiz.json::JSON::-1::1750682772::0::1::::<><>::
@@ -117,9 +117,9 @@ quiz.json::JSON::-1::1750711292::0::1::::<><>::
 ::res://Quiz/DiscreteMaths/::1750683016
 dialogueText.json::JSON::-1::1750682974::0::1::::<><>::
 quiz.json::JSON::-1::1750683016::0::1::::<><>::
-::res://Quiz/HID/::1750709886
+::res://Quiz/HID/::1751190619
 dialogueText.json::JSON::-1::1750707127::0::1::::<><>::
-quiz.json::JSON::-1::1750709886::0::1::::<><>::
+quiz.json::JSON::-1::1751190619::0::1::::<><>::
 ::res://Quiz/ICTProject/::1750710391
 dialogueText.json::JSON::-1::1750707138::0::1::::<><>::
 quiz.json::JSON::-1::1750710391::0::1::::<><>::
@@ -132,9 +132,9 @@ quiz.json::JSON::-1::1750683097::0::1::::<><>::
 ::res://Quiz/OperatingSystems/::1750683151
 dialogueText.json::JSON::-1::1750683107::0::1::::<><>::
 quiz.json::JSON::-1::1750683151::0::1::::<><>::
-::res://Quiz/ProbabilityAndStatistics/::1750709258
+::res://Quiz/ProbabilityAndStatistics/::1751190619
 dialogueText.json::JSON::-1::1750683160::0::1::::<><>::
-quiz.json::JSON::-1::1750709258::0::1::::<><>::
+quiz.json::JSON::-1::1751190619::0::1::::<><>::
 ::res://Quiz/SoftwareTesting/::1750709926
 dialogueText.json::JSON::-1::1750707174::0::1::::<><>::
 quiz.json::JSON::-1::1750709926::0::1::::<><>::
@@ -147,36 +147,37 @@ quiz.json::JSON::-1::1750683310::0::1::::<><>::
 ::res://Quiz/WebProgramming/::1750710391
 dialogueText.json::JSON::-1::1750707197::0::1::::<><>::
 quiz.json::JSON::-1::1750710391::0::1::::<><>::
-::res://Scenes/::1751188934
-CoffeeBonus.tscn::PackedScene::6157477307487393077::1751119294::0::1::::<><>::uid://bpkm6qa2co1g3::::res://images/coffee.png
-GraduateMenu.tscn::PackedScene::3826622408033643391::1751188934::0::1::::<><>::res://Scripts/graduate_menu.gd<>uid://cgi186fjra4kg::::res://images/graduatePic.png<>uid://csgg18t6caf17::::res://Sound/victory.mp3<>uid://cp0yaobnlgdqp::::res://Sound/button click.mp3
-LevelBanner.tscn::PackedScene::2628375067757139996::1751119294::0::1::::<><>::res://Scripts/level_banner.gd
-level_1.tscn::PackedScene::9102560540032176000::1751188934::0::1::::<><>::res://Scripts/level_1.gd<>uid://ctyy0s5j0jgqf::::res://Scenes/CoffeeBonus.tscn<>uid://cwnllvsb5ce7f::::res://images/finkimapTileMap2.png<>uid://bdpg7ocxl7f1e::::res://Scenes/LevelBanner.tscn<>uid://ctqoebgdq7wy7::::res://images/exterior.png<>uid://d1kppy7egt3oo::::res://images/walls_floor.png<>uid://coh8xo57eps4o::::res://images/pixel_cars_78x192_each.png<>uid://dv7iilnf4sej0::::res://images/university_building_600px.png<>uid://bko5vjbprnncm::::res://images/university_building_red_nobg_final.png<>uid://blwdnkvgie0j7::::res://images/tetex.png<>uid://yrxmtqd5ca6l::::res://images/la no.png<>uid://dpv1a1ivmatls::::res://images/net village.png<>uid://dao5pwinm50j4::::res://images/baraka.png<>uid://binktbyr0854::::res://images/mashinski.png<>uid://dwidxaomnm3i1::::res://images/L_ahped.png<>uid://vx0ytslkxlck::::res://images/basketball.png<>uid://bkbm123bxf60j::::res://images/3-benches.png<>uid://duumpaeyyuvay::::res://images/black&yellow_cevron.png<>uid://7r5aojmnen56::::res://Sound/open-new-level.mp3<>uid://dccufguxmpva8::::res://Sound/game_over.mp3
+::res://Scenes/::1751208231
+CoffeeBonus.tscn::PackedScene::6157477307487393077::1751194865::0::1::::<><>::res://Scripts/coffee_bonus.gd<>uid://bpkm6qa2co1g3::::res://images/coffee.png
+GraduateMenu.tscn::PackedScene::3826622408033643391::1751194865::0::1::::<><>::res://Scripts/graduate_menu.gd<>uid://cgi186fjra4kg::::res://images/graduatePic.png<>uid://csgg18t6caf17::::res://Sound/victory.mp3<>uid://cp0yaobnlgdqp::::res://Sound/button click.mp3
+LevelBanner.tscn::PackedScene::2628375067757139996::1751194865::0::1::::<><>::res://Scripts/level_banner.gd
+level_1.tscn::PackedScene::9102560540032176000::1751208208::0::1::::<><>::res://Scripts/level_1.gd<>uid://ctyy0s5j0jgqf::::res://Scenes/CoffeeBonus.tscn<>uid://cwnllvsb5ce7f::::res://images/finkimapTileMap2.png<>uid://bdpg7ocxl7f1e::::res://Scenes/LevelBanner.tscn<>uid://ctqoebgdq7wy7::::res://images/exterior.png<>uid://d1kppy7egt3oo::::res://images/walls_floor.png<>uid://coh8xo57eps4o::::res://images/pixel_cars_78x192_each.png<>uid://dv7iilnf4sej0::::res://images/university_building_600px.png<>uid://bko5vjbprnncm::::res://images/university_building_red_nobg_final.png<>uid://blwdnkvgie0j7::::res://images/tetex.png<>uid://yrxmtqd5ca6l::::res://images/la no.png<>uid://dpv1a1ivmatls::::res://images/net village.png<>uid://dao5pwinm50j4::::res://images/baraka.png<>uid://binktbyr0854::::res://images/mashinski.png<>uid://dwidxaomnm3i1::::res://images/L_ahped.png<>uid://vx0ytslkxlck::::res://images/basketball.png<>uid://bkbm123bxf60j::::res://images/3-benches.png<>uid://duumpaeyyuvay::::res://images/black&yellow_cevron.png<>uid://7r5aojmnen56::::res://Sound/open-new-level.mp3<>uid://dccufguxmpva8::::res://Sound/game_over.mp3
 level_1_old.tscn::PackedScene::6697924621825899742::1751114118::0::1::::<><>::res://Scripts/level_1.gd<>uid://bdpg7ocxl7f1e::::res://Scenes/LevelBanner.tscn<>uid://cwnllvsb5ce7f::::res://images/finkimapTileMap2.png<>uid://ctqoebgdq7wy7::::res://images/exterior.png<>uid://d1kppy7egt3oo::::res://images/walls_floor.png<>uid://coh8xo57eps4o::::res://images/pixel_cars_78x192_each.png<>uid://dv7iilnf4sej0::::res://images/university_building_600px.png<>uid://bko5vjbprnncm::::res://images/university_building_red_nobg_final.png<>uid://blwdnkvgie0j7::::res://images/tetex.png<>uid://yrxmtqd5ca6l::::res://images/la no.png<>uid://dpv1a1ivmatls::::res://images/net village.png<>uid://binktbyr0854::::res://images/mashinski.png<>uid://dao5pwinm50j4::::res://images/baraka.png<>uid://dwidxaomnm3i1::::res://images/L_ahped.png<>uid://vx0ytslkxlck::::res://images/basketball.png
-level_2.tscn::PackedScene::1129694772674386419::1751188934::0::1::::<><>::res://Scripts/level_2.gd<>uid://bdpg7ocxl7f1e::::res://Scenes/LevelBanner.tscn<>uid://cwnllvsb5ce7f::::res://images/finkimapTileMap2.png<>uid://ctyy0s5j0jgqf::::res://Scenes/CoffeeBonus.tscn<>uid://ctqoebgdq7wy7::::res://images/exterior.png<>uid://d1kppy7egt3oo::::res://images/walls_floor.png<>uid://coh8xo57eps4o::::res://images/pixel_cars_78x192_each.png<>uid://dv7iilnf4sej0::::res://images/university_building_600px.png<>uid://bko5vjbprnncm::::res://images/university_building_red_nobg_final.png<>uid://blwdnkvgie0j7::::res://images/tetex.png<>uid://yrxmtqd5ca6l::::res://images/la no.png<>uid://dpv1a1ivmatls::::res://images/net village.png<>uid://binktbyr0854::::res://images/mashinski.png<>uid://dao5pwinm50j4::::res://images/baraka.png<>uid://dwidxaomnm3i1::::res://images/L_ahped.png<>uid://vx0ytslkxlck::::res://images/basketball.png<>uid://bkbm123bxf60j::::res://images/3-benches.png<>uid://duumpaeyyuvay::::res://images/black&yellow_cevron.png<>uid://7r5aojmnen56::::res://Sound/open-new-level.mp3<>uid://dccufguxmpva8::::res://Sound/game_over.mp3
-level_3.tscn::PackedScene::3115715286494322391::1751188934::0::1::::<><>::res://Scripts/level_3.gd<>uid://bdpg7ocxl7f1e::::res://Scenes/LevelBanner.tscn<>uid://cwnllvsb5ce7f::::res://images/finkimapTileMap2.png<>uid://ctqoebgdq7wy7::::res://images/exterior.png<>uid://d1kppy7egt3oo::::res://images/walls_floor.png<>uid://coh8xo57eps4o::::res://images/pixel_cars_78x192_each.png<>uid://dv7iilnf4sej0::::res://images/university_building_600px.png<>uid://bko5vjbprnncm::::res://images/university_building_red_nobg_final.png<>uid://blwdnkvgie0j7::::res://images/tetex.png<>uid://yrxmtqd5ca6l::::res://images/la no.png<>uid://dpv1a1ivmatls::::res://images/net village.png<>uid://binktbyr0854::::res://images/mashinski.png<>uid://dao5pwinm50j4::::res://images/baraka.png<>uid://dwidxaomnm3i1::::res://images/L_ahped.png<>uid://vx0ytslkxlck::::res://images/basketball.png<>uid://bkbm123bxf60j::::res://images/3-benches.png<>uid://duumpaeyyuvay::::res://images/black&yellow_cevron.png<>uid://ctyy0s5j0jgqf::::res://Scenes/CoffeeBonus.tscn<>uid://7r5aojmnen56::::res://Sound/open-new-level.mp3<>uid://dccufguxmpva8::::res://Sound/game_over.mp3
-level_4.tscn::PackedScene::5958604459373818055::1751188934::0::1::::<><>::res://Scripts/level_4.gd<>uid://bdpg7ocxl7f1e::::res://Scenes/LevelBanner.tscn<>uid://cwnllvsb5ce7f::::res://images/finkimapTileMap2.png<>uid://ctqoebgdq7wy7::::res://images/exterior.png<>uid://d1kppy7egt3oo::::res://images/walls_floor.png<>uid://coh8xo57eps4o::::res://images/pixel_cars_78x192_each.png<>uid://dv7iilnf4sej0::::res://images/university_building_600px.png<>uid://bko5vjbprnncm::::res://images/university_building_red_nobg_final.png<>uid://blwdnkvgie0j7::::res://images/tetex.png<>uid://yrxmtqd5ca6l::::res://images/la no.png<>uid://dpv1a1ivmatls::::res://images/net village.png<>uid://binktbyr0854::::res://images/mashinski.png<>uid://dao5pwinm50j4::::res://images/baraka.png<>uid://dwidxaomnm3i1::::res://images/L_ahped.png<>uid://vx0ytslkxlck::::res://images/basketball.png<>uid://bkbm123bxf60j::::res://images/3-benches.png<>uid://duumpaeyyuvay::::res://images/black&yellow_cevron.png<>uid://ctyy0s5j0jgqf::::res://Scenes/CoffeeBonus.tscn<>uid://7r5aojmnen56::::res://Sound/open-new-level.mp3<>uid://dccufguxmpva8::::res://Sound/game_over.mp3
-Main.tscn::PackedScene::9222330259576318580::1751119282::0::1::::<><>::res://Scripts/main.gd<>uid://ok47hp3tt4jb::::res://Scenes/student_player.tscn<>uid://u1vnxelb7bl3::::res://Scenes/Minimap.tscn<>uid://d2xl3vttu6aiy::::res://Scenes/level_1.tscn
-Minimap.tscn::PackedScene::1458750181253717510::1751119282::0::1::::<><>::res://Scripts/sub_viewport.gd
-Professor.tscn::PackedScene::4184887524929069131::1751119282::0::1::::<><>::res://Scripts/professor.gd<>uid://b5vsuduhdrmy::::res://Assets/Professors/Idle.png<>uid://cu6jvgdmvyxs::::res://Assets/Professors/Walk.png<>uid://bxf8v1n2h5i62::::res://Dialogue/dialogue.tscn
-Quiz.tscn::PackedScene::6913501830628096201::1751188934::0::1::::<><>::res://Scripts/Quiz.gd<>uid://t0c81t6y4wfb::::res://Sound/correct_ANSWER.mp3<>uid://bwimplph8dcvh::::res://Sound/incorrect_ANSWER.mp3
-StartMenu.tscn::PackedScene::4385140510170311014::1751188934::0::1::::<><>::uid://b2swqyry2f4np::::res://images/startMenuMaybe.png<>uid://cp0yaobnlgdqp::::res://Sound/button click.mp3
-student_player.tscn::PackedScene::1005105918802115375::1751188934::0::1::::<><>::res://Scripts/studentPlayer.gd<>uid://bijndqctivfdi::::res://Assets/Player/Character_Walk.png<>uid://cr73lehwlaobh::::res://Sound/power-up-type-1-230548.mp3
-::res://Scripts/::1751188934
-dialogue.gd::GDScript::-1::1750674014::0::1::::<>Control<>::
-graduate_menu.gd::GDScript::-1::1751188934::0::1::::<>Control<>::
-level_1.gd::GDScript::-1::1751188934::0::1::::<>Node2D<>::
-level_2.gd::GDScript::-1::1751188934::0::1::::<>Node2D<>::
-level_3.gd::GDScript::-1::1751188934::0::1::::<>Node2D<>::
-level_4.gd::GDScript::-1::1751188934::0::1::::<>Node2D<>::
-level_banner.gd::GDScript::-1::1750674014::0::1::::<>CanvasLayer<>::
-main.gd::GDScript::-1::1751188934::0::1::::<>Node<>::
+level_2.tscn::PackedScene::1129694772674386419::1751208231::0::1::::<><>::res://Scripts/level_2.gd<>uid://bdpg7ocxl7f1e::::res://Scenes/LevelBanner.tscn<>uid://cwnllvsb5ce7f::::res://images/finkimapTileMap2.png<>uid://ctyy0s5j0jgqf::::res://Scenes/CoffeeBonus.tscn<>uid://ctqoebgdq7wy7::::res://images/exterior.png<>uid://d1kppy7egt3oo::::res://images/walls_floor.png<>uid://coh8xo57eps4o::::res://images/pixel_cars_78x192_each.png<>uid://dv7iilnf4sej0::::res://images/university_building_600px.png<>uid://bko5vjbprnncm::::res://images/university_building_red_nobg_final.png<>uid://blwdnkvgie0j7::::res://images/tetex.png<>uid://yrxmtqd5ca6l::::res://images/la no.png<>uid://dpv1a1ivmatls::::res://images/net village.png<>uid://binktbyr0854::::res://images/mashinski.png<>uid://dao5pwinm50j4::::res://images/baraka.png<>uid://dwidxaomnm3i1::::res://images/L_ahped.png<>uid://vx0ytslkxlck::::res://images/basketball.png<>uid://bkbm123bxf60j::::res://images/3-benches.png<>uid://duumpaeyyuvay::::res://images/black&yellow_cevron.png<>uid://7r5aojmnen56::::res://Sound/open-new-level.mp3<>uid://dccufguxmpva8::::res://Sound/game_over.mp3
+level_3.tscn::PackedScene::3115715286494322391::1751208224::0::1::::<><>::res://Scripts/level_3.gd<>uid://bdpg7ocxl7f1e::::res://Scenes/LevelBanner.tscn<>uid://cwnllvsb5ce7f::::res://images/finkimapTileMap2.png<>uid://ctqoebgdq7wy7::::res://images/exterior.png<>uid://d1kppy7egt3oo::::res://images/walls_floor.png<>uid://coh8xo57eps4o::::res://images/pixel_cars_78x192_each.png<>uid://dv7iilnf4sej0::::res://images/university_building_600px.png<>uid://bko5vjbprnncm::::res://images/university_building_red_nobg_final.png<>uid://blwdnkvgie0j7::::res://images/tetex.png<>uid://yrxmtqd5ca6l::::res://images/la no.png<>uid://dpv1a1ivmatls::::res://images/net village.png<>uid://binktbyr0854::::res://images/mashinski.png<>uid://dao5pwinm50j4::::res://images/baraka.png<>uid://dwidxaomnm3i1::::res://images/L_ahped.png<>uid://vx0ytslkxlck::::res://images/basketball.png<>uid://bkbm123bxf60j::::res://images/3-benches.png<>uid://duumpaeyyuvay::::res://images/black&yellow_cevron.png<>uid://ctyy0s5j0jgqf::::res://Scenes/CoffeeBonus.tscn<>uid://7r5aojmnen56::::res://Sound/open-new-level.mp3<>uid://dccufguxmpva8::::res://Sound/game_over.mp3
+level_4.tscn::PackedScene::5958604459373818055::1751208216::0::1::::<><>::res://Scripts/level_4.gd<>uid://bdpg7ocxl7f1e::::res://Scenes/LevelBanner.tscn<>uid://cwnllvsb5ce7f::::res://images/finkimapTileMap2.png<>uid://ctqoebgdq7wy7::::res://images/exterior.png<>uid://d1kppy7egt3oo::::res://images/walls_floor.png<>uid://coh8xo57eps4o::::res://images/pixel_cars_78x192_each.png<>uid://dv7iilnf4sej0::::res://images/university_building_600px.png<>uid://bko5vjbprnncm::::res://images/university_building_red_nobg_final.png<>uid://blwdnkvgie0j7::::res://images/tetex.png<>uid://yrxmtqd5ca6l::::res://images/la no.png<>uid://dpv1a1ivmatls::::res://images/net village.png<>uid://binktbyr0854::::res://images/mashinski.png<>uid://dao5pwinm50j4::::res://images/baraka.png<>uid://dwidxaomnm3i1::::res://images/L_ahped.png<>uid://vx0ytslkxlck::::res://images/basketball.png<>uid://bkbm123bxf60j::::res://images/3-benches.png<>uid://duumpaeyyuvay::::res://images/black&yellow_cevron.png<>uid://ctyy0s5j0jgqf::::res://Scenes/CoffeeBonus.tscn<>uid://7r5aojmnen56::::res://Sound/open-new-level.mp3<>uid://dccufguxmpva8::::res://Sound/game_over.mp3
+Main.tscn::PackedScene::9222330259576318580::1751197117::0::1::::<><>::res://Scripts/main.gd<>uid://ok47hp3tt4jb::::res://Scenes/student_player.tscn<>uid://u1vnxelb7bl3::::res://Scenes/Minimap.tscn<>uid://d2xl3vttu6aiy::::res://Scenes/level_1.tscn
+Minimap.tscn::PackedScene::1458750181253717510::1751194865::0::1::::<><>::res://Scripts/sub_viewport.gd
+Professor.tscn::PackedScene::4184887524929069131::1751194865::0::1::::<><>::res://Scripts/professor.gd<>uid://b5vsuduhdrmy::::res://Assets/Professors/Idle.png<>uid://cu6jvgdmvyxs::::res://Assets/Professors/Walk.png<>uid://bxf8v1n2h5i62::::res://Dialogue/dialogue.tscn
+Quiz.tscn::PackedScene::6913501830628096201::1751194865::0::1::::<><>::res://Scripts/Quiz.gd<>uid://t0c81t6y4wfb::::res://Sound/correct_ANSWER.mp3<>uid://bwimplph8dcvh::::res://Sound/incorrect_ANSWER.mp3
+StartMenu.tscn::PackedScene::4385140510170311014::1751208201::0::1::::<><>::uid://b2swqyry2f4np::::res://images/startMenuMaybe.png<>uid://cp0yaobnlgdqp::::res://Sound/button click.mp3
+student_player.tscn::PackedScene::1005105918802115375::1751208209::0::1::::<><>::res://Scripts/studentPlayer.gd<>uid://bijndqctivfdi::::res://Assets/Player/Character_Walk.png<>uid://cr73lehwlaobh::::res://Sound/power-up-type-1-230548.mp3
+::res://Scripts/::1751209321
+coffee_bonus.gd::GDScript::-1::1751190039::0::1::::<>Area2D<>::
+dialogue.gd::GDScript::-1::1751191111::0::1::::<>Control<>::
+graduate_menu.gd::GDScript::-1::1751191111::0::1::::<>Control<>::
+level_1.gd::GDScript::-1::1751209321::0::1::::<>Node2D<>::
+level_2.gd::GDScript::-1::1751209321::0::1::::<>Node2D<>::
+level_3.gd::GDScript::-1::1751209321::0::1::::<>Node2D<>::
+level_4.gd::GDScript::-1::1751209321::0::1::::<>Node2D<>::
+level_banner.gd::GDScript::-1::1751191111::0::1::::<>CanvasLayer<>::
+main.gd::GDScript::-1::1751191111::0::1::::<>Node<>::
 minimap.gd::GDScript::-1::1750940648::0::1::::<>CanvasLayer<>::
 professor.gd::GDScript::-1::1751115630::0::1::::<>CharacterBody2D<>::
-Quiz.gd::GDScript::-1::1751188934::0::1::::<>CanvasLayer<>::
-studentPlayer.gd::GDScript::-1::1751188934::0::1::::StudentPlayer<>CharacterBody2D<>::
-sub_viewport.gd::GDScript::-1::1750940648::0::1::::<>SubViewport<>::
-::res://Sound/::1751188934
+Quiz.gd::GDScript::-1::1751191111::0::1::::<>CanvasLayer<>::
+studentPlayer.gd::GDScript::-1::1751201589::0::1::::StudentPlayer<>CharacterBody2D<>::
+sub_viewport.gd::GDScript::-1::1751191111::0::1::::<>SubViewport<>::
+::res://Sound/::1751188968
 button click.mp3::AudioStreamMP3::5878741411111883899::1751188934::1751188968::1::::<><>::
 correct_ANSWER.mp3::AudioStreamMP3::1385379234558627467::1751188934::1751188968::1::::<><>::
 game_over.mp3::AudioStreamMP3::7304992109786195085::1751188934::1751188968::1::::<><>::

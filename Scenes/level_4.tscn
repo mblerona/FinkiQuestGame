@@ -20443,7 +20443,7 @@ position = Vector2(-792, -1101)
 position = Vector2(805, -1119)
 
 [node name="spawn8" type="Marker2D" parent="ProfessorSpawnPoints"]
-position = Vector2(837, -424)
+position = Vector2(805, -475)
 
 [node name="spawn9" type="Marker2D" parent="ProfessorSpawnPoints"]
 position = Vector2(125, 46)
@@ -20459,7 +20459,7 @@ scale = Vector2(0.245502, 0.0996363)
 position = Vector2(216, 993)
 
 [node name="spawn3" type="Marker2D" parent="ProfessorSpawnPoints"]
-position = Vector2(716, 1191)
+position = Vector2(706, 1123)
 
 [node name="spawn4" type="Marker2D" parent="ProfessorSpawnPoints"]
 position = Vector2(1511, 852)
@@ -20489,7 +20489,7 @@ position = Vector2(-2077, 1053)
 position = Vector2(-1665, 793)
 
 [node name="spawn18" type="Marker2D" parent="ProfessorSpawnPoints"]
-position = Vector2(-1076, 1231)
+position = Vector2(-1125, 1098)
 
 [node name="LevelBanner" parent="." instance=ExtResource("2_bde3k")]
 
