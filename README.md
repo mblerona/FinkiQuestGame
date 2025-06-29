@@ -1,5 +1,7 @@
 The documentation of the project:
 https://docs.google.com/document/d/1PXsSzIcONCk1XLizl8D8iBGcDFPiXPLC9_RRteGKu8s/edit?usp=sharing
+the youtube video of the project:
+https://youtu.be/CqI5-AL7Toc?si=EiOpLvV58AUUkktg
 
 #**Students:**
 Engjell Vlashi 211519
